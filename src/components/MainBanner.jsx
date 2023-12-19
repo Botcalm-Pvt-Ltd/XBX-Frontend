@@ -26,20 +26,20 @@ const MainBanner = () => {
                     <h1 className='xl:text-8xl md:text-5xl text-3xl absolute md:top-24 top-14 left-1/2 transform -translate-x-1/2 header-font md:tracking-widest z-10'>ANAL<span className='stroke-text'>YTICS</span></h1>
                 </motion.div>
                 <div className='md:w-[700px] 4xl:w-[900px] w-full mx-auto p-10'>
-                <motion.div 
-                initial={{ scale: 1 }} 
-                animate={{ scale: [1, 1.02, 1]}} 
-                transition={{
-                    repeat: Infinity,
-                    duration: 2, // Total duration of one bounce (half up, half down)
-                    ease: 'easeInOut',
-                    repeatDelay: 0.5, // Delay between bounces
-                }}>
-                    <img src={worldImage} alt="world-image" className='w-full h-full object-contain' />
+                    <motion.div
+                        initial={{ scale: 1 }}
+                        animate={{ scale: [1, 1.02, 1] }}
+                        transition={{
+                            repeat: Infinity,
+                            duration: 2, // Total duration of one bounce (half up, half down)
+                            ease: 'easeInOut',
+                            repeatDelay: 0.5, // Delay between bounces
+                        }}>
+                        <img src={worldImage} alt="world-image" className='w-full h-full object-contain' />
                     </motion.div>
                 </div>
                 <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
-                <h6 className='md:text-2xl text-md absolute top-1/3 left-1/2 transform -translate-x-1/2 w-full tracking-wider'>ULTIMATE TOOL FOR ON-CHAIN TRADING</h6>
+                    <h6 className='md:text-2xl text-md absolute top-1/3 left-1/2 transform -translate-x-1/2 w-full tracking-wider'>ULTIMATE TOOL FOR ON-CHAIN TRADING</h6>
                 </motion.div>
                 <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
                     <div className='flex items-center justify-center md:gap-10 gap-5 w-full absolute top-1/2 left-0'>
@@ -49,17 +49,32 @@ const MainBanner = () => {
                 </motion.div>
             </div>
             {/* <motion.div
-                initial={{ y: -390 }}
-                animate={{ y: [-390, -410, -390] }} // Adjust the bounce height as needed
+                initial={{ rotate: 0 }}
+                animate={{}} // Adjust the bounce height as needed
                 transition={{
                     repeat: Infinity,
                     duration: 2, // Total duration of one bounce (half up, half down)
                     ease: 'easeInOut',
                     repeatDelay: 0.5, // Delay between bounces
                 }}
-            > */}
+            >
                 <img src={starImage} alt="star" className='w-20 h-20 md:block hidden absolute bottom-1/2 right-52 ' />
-            {/* </motion.div> */}
+            </motion.div> */}
+
+            <motion.img
+                src={starImage}
+                initial={{ rotate: 0 }}
+                className='w-20 h-20 md:block hidden absolute bottom-1/2 right-52'
+                animate={{rotate:360}} // Adjust the bounce height as needed
+                transition={{
+                    repeat: Infinity,
+                    duration: 2, // Total duration of one bounce (half up, half down)
+                    ease: 'easeInOut',
+                    repeatDelay: 0.5, // Delay between bounces
+                }}
+            >
+            </motion.img>
+
             <div className='absolute bottom-0 right-0 w-1/3 z-0'>
                 <img src={xb} alt="xb" className='w-full h-full object-contain' />
             </div>
@@ -69,35 +84,35 @@ const MainBanner = () => {
                     <p className='text-white text-sm mb-5 4xl:text-lg'>Support Chains</p>
                     <div className='flex items-center justify-between gap-3'>
                         <div className='w-16 h-16 cursor-pointer'>
-                        <img src={chain1} alt="supported-chains" className='w-full h-full object-contain hover:brightness-150' />
+                            <img src={chain1} alt="supported-chains" className='w-full h-full object-contain hover:brightness-150' />
                         </div>
                         <div className='w-16 h-16 cursor-pointer'>
-                        <img src={chain2} alt="supported-chains" className='w-full h-full object-contain hover:brightness-150' />
+                            <img src={chain2} alt="supported-chains" className='w-full h-full object-contain hover:brightness-150' />
                         </div>
                         <div className='w-16 h-16 cursor-pointer'>
-                        <img src={chain3} alt="supported-chains" className='w-full h-full object-contain hover:brightness-150' />
+                            <img src={chain3} alt="supported-chains" className='w-full h-full object-contain hover:brightness-150' />
                         </div>
                         <div className='w-16 h-16 cursor-pointer'>
-                        <img src={chain4} alt="supported-chains" className='w-full h-full object-contain hover:brightness-150' />
+                            <img src={chain4} alt="supported-chains" className='w-full h-full object-contain hover:brightness-150' />
                         </div>
                     </div>
                 </div>
-    
+
                 <div className='text-2xl 4xl:text-4xl ml-auto w-fit flex md:flex-col gap-5 mr-20 z-10 mt-10'>
-                <motion.div initial={{ x: 50 }} animate={{ x: 0 }} transition={{ duration: 1 }}>
-                    <Link to={'https://www.twitter.com'} target='_blank' className='hover:brightness-50'><BsTwitterX /></Link>
+                    <motion.div initial={{ x: 50 }} animate={{ x: 0 }} transition={{ duration: 1 }}>
+                        <Link to={'https://www.twitter.com'} target='_blank' className='hover:brightness-50'><BsTwitterX /></Link>
                     </motion.div>
                     <motion.div initial={{ x: 50 }} animate={{ x: 0 }} transition={{ duration: 1 }}>
 
-                    <Link to={'https://wwww.github.com'} target='_blank' className='hover:brightness-50'><FaGithub /></Link>
+                        <Link to={'https://wwww.github.com'} target='_blank' className='hover:brightness-50'><FaGithub /></Link>
                     </motion.div>
                     <motion.div initial={{ x: 50 }} animate={{ x: 0 }} transition={{ duration: 1 }}>
 
-                    <Link to={'https://www.telegram.com'} target='_blank' className='hover:brightness-50'><PiTelegramLogo /></Link>
+                        <Link to={'https://www.telegram.com'} target='_blank' className='hover:brightness-50'><PiTelegramLogo /></Link>
                     </motion.div>
-                   
+
                 </div>
-              
+
             </div>
             {/* <div className='flex items-center flex-col absolute bottom-0 right-0 md:left-1/2 z-10 transform -translate-x-1/2 cursor-pointer'>
                 <p>Scroll Down</p>

@@ -15,7 +15,7 @@ const SwapSection = () => {
             </motion.div>
             {/* DESKTOP */}
             <div className='mb-10 md:mb-0 relative justify-between lg:px-10 items-center flex lg:flex-row flex-col-reverse'>
-                <div className='lg:w-1/2 w-full relative green-gradient-sm md:backdrop-blur-md xl:hover:-translate-y-2 transition-all cursor-pointer' style={{clipPath: 'polygon(0% 00%, 85% 0%, 180% 100%, 0% 100%)'}}>
+                <div className='lg:w-1/2 xl:mt-2 w-full relative green-gradient-sm md:backdrop-blur-md xl:hover:-translate-y-2 transition-all cursor-pointer ' style={{clipPath: 'polygon(0% 0%, 85% 0%, 100% 15%, 100% 66%, 65% 100%, 0% 100%)'}}>
                     <img src={swapdesk01} className='w-full h-full object-contain lg:block hidden' />
                     <img src={swapdesk01Mobile} className='w-full h-full object-contain block lg:hidden' />
                     <div className='absolute md:top-3 top-10 left-0 w-full xl:px-20 px-10 xl:py-0 lg:py-10 md:py-28 4xl:py-32'>
@@ -25,11 +25,11 @@ const SwapSection = () => {
                         </div>
 
                         <ul className='xl:mt-0 mt-10 4xl:mt-10 uppercase'>
-                            <li className='flex items-center gap-2 hover:gap-4 transition-all transition-300 xl:mb-4 text-xs md:text-sm 4xl:text-lg'><FaGreaterThan />Multichain Sniper & Trading Bot</li>
-                            <li className='flex items-center gap-2 hover:gap-4 transition-all transition-300 xl:mb-4 text-xs md:text-sm 4xl:text-lg'><FaGreaterThan />Uniswap V3</li>
-                            <li className='flex items-center gap-2 hover:gap-4 transition-all transition-300 xl:mb-4 text-xs md:text-sm 4xl:text-lg'><FaGreaterThan />Bribing & Bundle Submission</li>
-                            <li className='flex items-center gap-2 hover:gap-4 transition-all transition-300 xl:mb-4 text-xs md:text-sm 4xl:text-lg'><FaGreaterThan />Wallet Limit</li>
-                            <li className='flex items-center gap-2 hover:gap-4 transition-all transition-300 xl:mb-4 text-xs md:text-sm 4xl:text-lg'><FaGreaterThan />Invite Keys</li>
+                            <li className='flex items-center gap-2 hover:gap-4 transition-all transition-300 xl:mb-4 mb-2 text-xs md:text-sm 4xl:text-lg'><FaGreaterThan />Multichain Sniper & Trading Bot</li>
+                            <li className='flex items-center gap-2 hover:gap-4 transition-all transition-300 xl:mb-4 mb-2 text-xs md:text-sm 4xl:text-lg'><FaGreaterThan />Uniswap V3</li>
+                            <li className='flex items-center gap-2 hover:gap-4 transition-all transition-300 xl:mb-4 mb-2 text-xs md:text-sm 4xl:text-lg'><FaGreaterThan />Bribing & Bundle Submission</li>
+                            <li className='flex items-center gap-2 hover:gap-4 transition-all transition-300 xl:mb-4 mb-2 text-xs md:text-sm 4xl:text-lg'><FaGreaterThan />Wallet Limit</li>
+                            <li className='flex items-center gap-2 hover:gap-4 transition-all transition-300 xl:mb-4 mb-2 text-xs md:text-sm 4xl:text-lg'><FaGreaterThan />Invite Keys</li>
                         </ul>
                     </div>
                 </div>
@@ -46,9 +46,9 @@ const SwapSection = () => {
                     </div>
 
                     <ul className='xl:mt-10 mt-10 uppercase'>
-                        <li className='flex items-center gap-2 hover:gap-4 transition-all transition-300 xl:mb-4 text-xs md:text-sm 4xl:text-lg'><FaGreaterThan />Multichain Sniper & Trading Bot</li>
-                        <li className='flex items-center gap-2 hover:gap-4 transition-all transition-300 xl:mb-4 text-xs md:text-sm 4xl:text-lg'><FaGreaterThan />Uniswap V3</li>
-                        <li className='flex items-center gap-2 hover:gap-4 transition-all transition-300 xl:mb-4 text-xs md:text-sm 4xl:text-lg'><FaGreaterThan />Bribing & Bundle Submission</li>
+                        <li className='flex items-center gap-2 hover:gap-4 transition-all transition-300 xl:mb-4 mb-2 text-xs md:text-sm 4xl:text-lg'><FaGreaterThan />Multichain Sniper & Trading Bot</li>
+                        <li className='flex items-center gap-2 hover:gap-4 transition-all transition-300 xl:mb-4 mb-2 text-xs md:text-sm 4xl:text-lg'><FaGreaterThan />Uniswap V3</li>
+                        <li className='flex items-center gap-2 hover:gap-4 transition-all transition-300 xl:mb-4 mb-2 text-xs md:text-sm 4xl:text-lg'><FaGreaterThan />Bribing & Bundle Submission</li>
                     </ul>
                 </div>
             </div>
