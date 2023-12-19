@@ -12,6 +12,7 @@ import chain1 from '../assets/chain-1.svg';
 import chain2 from '../assets/chain-2.svg';
 import chain3 from '../assets/chain-3.svg';
 import chain4 from '../assets/chain-4.svg';
+import GlassButton from './GlassButton'
 const MainBanner = () => {
     return (
         <section className='text-white text-center relative py-10 capitalize mx-auto'>
@@ -43,8 +44,8 @@ const MainBanner = () => {
                 </motion.div>
                 <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
                     <div className='flex items-center justify-center md:gap-10 gap-5 w-full absolute top-1/2 left-0'>
-                        <ShapedTpButton label={'Join Portal'} />
-                        <ShapedTpButton label={'Dashboard'} />
+                        <GlassButton label={'Join Portal'} />
+                        <GlassButton label={'Dashboard'} />
                     </div>
                 </motion.div>
             </div>
