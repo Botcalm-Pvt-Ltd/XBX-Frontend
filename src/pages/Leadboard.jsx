@@ -33,7 +33,7 @@ const Leadboard = () => {
       <div className="xl:hidden">
         <MobileLeadMainboard />
       </div>
-      <div className="pt-16 px-20 special:pt-40 special:mr-80">
+      <div className="pt-16 px-20 4xl:pt-40 4xl:mr-80">
         <div className="max-xl:hidden">
           <LeaderBoardTable TABLE_ROWS={LeaderBoardTable_ROWS} />
         </div>

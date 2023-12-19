@@ -7,13 +7,13 @@ const LeaderBoardTable = ({ TABLE_ROWS }) => {
       <thead>
         <tr className="text-white">
           <th className="">
-            <img src={doubleArrow} alt="doubleArrow" className="special:w-14"/>
+            <img src={doubleArrow} alt="doubleArrow" className="4xl:w-14"/>
           </th>
-          <th className="special:text-4xl">RANK</th>
-          <th className="special:text-4xl">WALLET</th>
-          <th className="special:text-4xl">FLOPPIES</th>
-          <th className="special:text-4xl">REFERRALS</th>
-          <th className="special:text-4xl">VOLUME</th>
+          <th className="4xl:text-4xl">RANK</th>
+          <th className="4xl:text-4xl">WALLET</th>
+          <th className="4xl:text-4xl">FLOPPIES</th>
+          <th className="4xl:text-4xl">REFERRALS</th>
+          <th className="4xl:text-4xl">VOLUME</th>
         </tr>
       </thead>
       <tbody>
@@ -26,13 +26,13 @@ const LeaderBoardTable = ({ TABLE_ROWS }) => {
             </tr>
             <tr className="text-gray-400 hover:text-white hover:bg-gradient-to-l from-gray-500">
               <td className="">
-                <img src={details.Arrow} alt="Arrow" className="w-5 special:w-10" />
+                <img src={details.Arrow} alt="Arrow" className="w-5 4xl:w-10" />
               </td>
-              <td className="special:text-4xl">{details.Rank}</td>
-              <td className="special:text-4xl">{details.wallet}</td>
-              <td className="special:text-4xl">{details.floppies}</td>
-              <td className="special:text-4xl">{details.referals}</td>
-              <td className="special:text-4xl">{details.volume}</td>
+              <td className="4xl:text-4xl">{details.Rank}</td>
+              <td className="4xl:text-4xl">{details.wallet}</td>
+              <td className="4xl:text-4xl">{details.floppies}</td>
+              <td className="4xl:text-4xl">{details.referals}</td>
+              <td className="4xl:text-4xl">{details.volume}</td>
             </tr>
           </React.Fragment>
         ))}

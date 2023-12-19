@@ -35,34 +35,34 @@ const MobileLeadMainboard = () => {
           <div className="pt-5 flex flex-col gap-5">
             <div className="flex items-center justify-center">
               <div className="flex flex-col justify-center items-center px-14 gap-2">
-                <img src={diamond} alt="diamond" className="special:w-24" />
-                <h1 className="text-xl special:text-4xl text-white">5000</h1>
-                <h1 className="text-xs special:text-2xl text-gray-500">
+                <img src={diamond} alt="diamond" className="4xl:w-24" />
+                <h1 className="text-xl 4xl:text-4xl text-white">5000</h1>
+                <h1 className="text-xs 4xl:text-2xl text-gray-500">
                   Legendary
                 </h1>
               </div>
               <div className="h-16 w-0.5 bg-gray-500/50" />
 
               <div className="flex flex-col justify-center items-center  px-14 gap-2">
-                <img src={box_2} alt="box_2" className="special:w-24" />
-                <h1 className="text-xl special:text-4xl text-white">1000</h1>
-                <h1 className="text-xs special:text-2xl text-gray-500">
+                <img src={box_2} alt="box_2" className="4xl:w-24" />
+                <h1 className="text-xl 4xl:text-4xl text-white">1000</h1>
+                <h1 className="text-xs 4xl:text-2xl text-gray-500">
                   Common
                 </h1>
               </div>
             </div>
             <div className="flex items-center justify-center">
               <div className="flex flex-col justify-center items-center px-14 gap-2">
-                <img src={globe} alt="globe" className="special:w-24" />
-                <h1 className="text-xl special:text-4xl text-white">2500</h1>
-                <h1 className="text-xs special:text-2xl text-gray-500">Rare</h1>
+                <img src={globe} alt="globe" className="4xl:w-24" />
+                <h1 className="text-xl 4xl:text-4xl text-white">2500</h1>
+                <h1 className="text-xs 4xl:text-2xl text-gray-500">Rare</h1>
               </div>
               <div className="h-16 w-0.5 bg-gray-500/50" />
 
               <div className="flex flex-col justify-center items-center px-14 gap-2">
-                <img src={cube} alt="cube" className="special:w-24" />
-                <h1 className="text-xl special:text-4xl text-white">1000</h1>
-                <h1 className="text-xs special:text-2xl text-gray-500">
+                <img src={cube} alt="cube" className="4xl:w-24" />
+                <h1 className="text-xl 4xl:text-4xl text-white">1000</h1>
+                <h1 className="text-xs 4xl:text-2xl text-gray-500">
                   Mystic
                 </h1>
               </div>

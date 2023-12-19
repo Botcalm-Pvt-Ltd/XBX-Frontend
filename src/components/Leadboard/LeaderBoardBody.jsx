@@ -14,71 +14,71 @@ const LeaderBoardBody = () => {
         <img
           src={Subtract}
           alt="Subtract"
-          className="absolute w-[72%] h-1/2 -z-10"
+          className="absolute w-[78%] h-1/2 -z-10"
         />
       </div>
       <div>
-        <div className="flex items-center justify-center text-white special:text-3xl relative special:right-40">
+        <div className="flex items-center justify-center text-white 4xl:text-3xl relative 4xl:right-40">
           <h1>
             <span className="text-gray-700">/ Last updated:</span> 01-09-2023
             16:51:51
           </h1>
         </div>
-        <div className="flex items-center justify-between pt-10 px-20 mr-10 special:mr-96 special:pt-40">
+        <div className="flex items-center justify-between pt-10 px-20 mr-10 4xl:mr-96 4xl:pt-40">
           <div className="flex items-center justify-center gap-10">
             <div>
-              <img src={circleLogo} alt="circleLogo" className="special:w-60"/>
+              <img src={circleLogo} alt="circleLogo" className="4xl:w-60"/>
             </div>
-            <div className="text-white Grotesk text-3xl special:text-6xl">
+            <div className="text-white Grotesk text-3xl 4xl:text-6xl">
               <h1>Mystic</h1>
-              <h1 className="text-base truncate special:text-2xl">
+              <h1 className="text-base truncate 4xl:text-2xl">
                 500 <span className="text-gray-500">/ Floppies</span>
               </h1>
             </div>
             <div className="h-20 w-0.5 bg-gray-700" />
           </div>
           <div className="flex flex-col justify-center items-center px-14 gap-2">
-            <img src={diamond} alt="diamond" className="special:w-24"/>
-            <h1 className="text-xl special:text-4xl text-white">5000</h1>
-            <h1 className="text-xs special:text-2xl text-gray-500">Legendary</h1>
+            <img src={diamond} alt="diamond" className="4xl:w-24"/>
+            <h1 className="text-xl 4xl:text-4xl text-white">5000</h1>
+            <h1 className="text-xs 4xl:text-2xl text-gray-500">Legendary</h1>
           </div>
           <div className="h-16 w-0.5 bg-gray-900" />
 
           <div className="flex flex-col justify-center items-center  px-14 gap-2">
-            <img src={box_2} alt="box_2" className="special:w-24"/>
-            <h1 className="text-xl special:text-4xl text-white">1000</h1>
-            <h1 className="text-xs special:text-2xl text-gray-500">Common</h1>
+            <img src={box_2} alt="box_2" className="4xl:w-24"/>
+            <h1 className="text-xl 4xl:text-4xl text-white">1000</h1>
+            <h1 className="text-xs 4xl:text-2xl text-gray-500">Common</h1>
           </div>
           <div className="h-16 w-0.5 bg-gray-900" />
 
           <div className="flex flex-col justify-center items-center px-14 gap-2">
-            <img src={globe} alt="globe" className="special:w-24"/>
-            <h1 className="text-xl special:text-4xl text-white">2500</h1>
-            <h1 className="text-xs special:text-2xl text-gray-500">Rare</h1>
+            <img src={globe} alt="globe" className="4xl:w-24"/>
+            <h1 className="text-xl 4xl:text-4xl text-white">2500</h1>
+            <h1 className="text-xs 4xl:text-2xl text-gray-500">Rare</h1>
           </div>
           <div className="h-16 w-0.5 bg-gray-900" />
 
           <div className="flex flex-col justify-center items-center px-14 gap-2">
-            <img src={cube} alt="cube" className="special:w-24"/>
-            <h1 className="text-xl special:text-4xl text-white">1000</h1>
-            <h1 className="text-xs special:text-2xl text-gray-500">Mystic</h1>
+            <img src={cube} alt="cube" className="4xl:w-24"/>
+            <h1 className="text-xl 4xl:text-4xl text-white">1000</h1>
+            <h1 className="text-xs 4xl:text-2xl text-gray-500">Mystic</h1>
           </div>
         </div>
-        <div className="flex justify-between items-center text-white Grotesk px-20 mr-20 special:mr-[450px] text-lg pt-20 special:pt-20">
+        <div className="flex justify-between items-center text-white Grotesk px-20 mr-20 4xl:mr-[450px] text-lg pt-20 4xl:pt-20">
           <div>
-            <h1 className="text-base special:text-2xl text-gray-700">/ REFERRALS</h1>
-            <h1 className="text-2xl special:text-5xl">1000</h1>
+            <h1 className="text-base 4xl:text-2xl text-gray-700">/ REFERRALS</h1>
+            <h1 className="text-2xl 4xl:text-5xl">1000</h1>
           </div>
           <div className="h-20 w-0.5 bg-gray-800" />
           <div>
-            <h1 className="text-base special:text-2xl text-gray-700">/ VOLUME</h1>
-            <h1 className="text-2xl special:text-5xl">1000 ETH</h1>
+            <h1 className="text-base 4xl:text-2xl text-gray-700">/ VOLUME</h1>
+            <h1 className="text-2xl 4xl:text-5xl">1000 ETH</h1>
           </div>
           <div className="h-20 w-0.5 bg-gray-800" />
 
           <div>
-            <h1 className="text-base special:text-2xl text-gray-700">/ REFERRALS VOLUME</h1>
-            <h1 className="text-2xl special:text-5xl">5000 ETH</h1>
+            <h1 className="text-base 4xl:text-2xl text-gray-700">/ REFERRALS VOLUME</h1>
+            <h1 className="text-2xl 4xl:text-5xl">5000 ETH</h1>
           </div>
           <div className="h-20 w-0.5 bg-gray-800" />
 

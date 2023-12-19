@@ -7,15 +7,15 @@ function Button2({ content, onClick, active, disabled }) {
       className={`flex flex-col cursor-pointer items-center justify-center w-6 h-6 shadow-[0_4px_10px_rgba(0,0,0,0.03)] text-sm font-normal transition-colors rounded-xl bg-gray-800
       ${
         active
-          ? "bg-gray-500 text-white special:text-2xl rounded-3xl"
-          : "text-gray-400  special:text-2xl "
+          ? "bg-gray-500 text-white 4xl:text-2xl rounded-3xl"
+          : "text-gray-400  4xl:text-2xl "
       }
       ${
         !disabled
           ? "bg-transparent hover:bg-gray-500 hover:text-white"
           : "cursor-not-allowed"
       }
-      special:text-4xl special:px-10`}
+      4xl:text-4xl 4xl:px-10`}
       onClick={onClick}
       disabled={disabled}
     >
@@ -27,8 +27,8 @@ function Button3({ content, onClick, active, disabled }) {
   return (
     <button
       className={`flex flex-col cursor-pointer items-center justify-center w-9 h-9 shadow-[0_4px_10px_rgba(0,0,0,0.03)] text-sm font-normal transition-colors rounded-xl bg-gray-800
-     text-white special:text-2xl
-      gradient-border special:px-24 special:py-8 special:mx-5 `}
+     text-white 4xl:text-2xl
+      gradient-border 4xl:px-24 4xl:py-8 4xl:mx-5 `}
       onClick={onClick}
       disabled={disabled}
     >
@@ -42,15 +42,15 @@ function Button4({ content, onClick, active, disabled }) {
       className={`flex flex-col cursor-pointer items-center justify-center w-9 h-9 shadow-[0_4px_10px_rgba(0,0,0,0.03)] text-sm font-normal transition-colors rounded-xl px-8 bg-gray-800
       ${
         active
-          ? "bg-gray-600 bg-opacity-50 text-white special:text-2xl"
-          : "text-gray-400 special:text-2xl "
+          ? "bg-gray-600 bg-opacity-50 text-white 4xl:text-2xl"
+          : "text-gray-400 4xl:text-2xl "
       }
       ${
         !disabled
           ? "bg-gray-600 bg-opacity-50 hover:text-white"
           : "cursor-not-allowed"
       }
-      gradient-border special:text-4xl special:px-24 special:py-8 special:mx-5`}
+      gradient-border 4xl:text-4xl 4xl:px-24 4xl:py-8 4xl:mx-5`}
       onClick={onClick}
       disabled={disabled}
     >
@@ -116,7 +116,7 @@ function PaginationNav1({
           disabled={!canPreviousPage}
         />
       </li>
-      <div className="flex bg-gray-800 rounded-xl items-center justify-center px-2 gradient-border ring-1 ring-white special:px-24">
+      <div className="flex bg-gray-800 rounded-xl items-center justify-center px-2 gradient-border ring-1 ring-white 4xl:px-24">
         {renderPageLinks()}
       </div>
       <li>

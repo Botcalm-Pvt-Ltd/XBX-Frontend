@@ -11,13 +11,13 @@ const AnalyticsTable = ({ TABLE_ROWS }) => {
     <table className="table-fixed w-full text-left">
       <thead>
         <tr className="text-white">
-          <th className="special:text-4xl">Name</th>
-          <th className="special:text-4xl">LAUNCH STATS</th>
-          <th className="special:text-4xl">XS (ATH)</th>
-          <th className="special:text-4xl">TIME</th>
-          <th className="special:text-4xl">LIQ. VARIATION</th>
-          <th className="special:text-4xl">CURRENT MC ($)</th>
-          <th className="special:text-4xl">LIQUIDITY ($)</th>
+          <th className="4xl:text-4xl">Name</th>
+          <th className="4xl:text-4xl">LAUNCH STATS</th>
+          <th className="4xl:text-4xl">XS (ATH)</th>
+          <th className="4xl:text-4xl">TIME</th>
+          <th className="4xl:text-4xl">LIQ. VARIATION</th>
+          <th className="4xl:text-4xl">CURRENT MC ($)</th>
+          <th className="4xl:text-4xl">LIQUIDITY ($)</th>
         </tr>
       </thead>
       <tbody>
@@ -34,7 +34,7 @@ const AnalyticsTable = ({ TABLE_ROWS }) => {
                   <img
                     src={tablecol1}
                     alt="Arrow"
-                    className="w-8 h-10 special:w-10"
+                    className="w-8 h-10 4xl:w-10"
                   />
                   <div>
                     <h1>{details.name1}</h1>
@@ -42,7 +42,7 @@ const AnalyticsTable = ({ TABLE_ROWS }) => {
                   </div>
                 </div>
               </td>
-              <td className="special:text-4xl">
+              <td className="4xl:text-4xl">
                 <div>
                   <h1 className="text-orange-700">MAYBE RUG</h1>
                   <h1>WALLETS: {details.launchstats1}</h1>
@@ -51,12 +51,12 @@ const AnalyticsTable = ({ TABLE_ROWS }) => {
                   <h1>FRESH : {details.launchstats4}</h1>
                 </div>
               </td>
-              <td className="special:text-4xl">{details.xs}</td>
-              <td className="special:text-4xl">{details.time}</td>
-              <td className="special:text-4xl">{details.liq}</td>
-              <td className="special:text-4xl">{details.mc}</td>
-              <td className="special:text-4xl">{details.liquidity}</td>
-              <td className="special:text-4xl">
+              <td className="4xl:text-4xl">{details.xs}</td>
+              <td className="4xl:text-4xl">{details.time}</td>
+              <td className="4xl:text-4xl">{details.liq}</td>
+              <td className="4xl:text-4xl">{details.mc}</td>
+              <td className="4xl:text-4xl">{details.liquidity}</td>
+              <td className="4xl:text-4xl">
                 <div>
                   <img src={tablelist1} alt="tablelist1" />
                   <div className="flex py-2 gap-1">

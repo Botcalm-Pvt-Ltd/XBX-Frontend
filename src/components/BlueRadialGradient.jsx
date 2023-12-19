@@ -1,5 +1,5 @@
 import React from 'react'
-import './gradient.css';
+
 
 const BlueRadialGradient = ({className}) => {
   return (
