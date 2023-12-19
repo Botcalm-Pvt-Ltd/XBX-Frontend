@@ -5,7 +5,7 @@ import AnalyticsButton from "./AnalyticsButton";
 
 const AnalyticsHead = () => {
   return (
-    <div className="flex items-center justify-between bg-gray-500/30 p-2 py-4 pr-20 gap-5 rounded-xl mr-20 4xl:my-10 4xl:mx-80 4xl:px-40 4xl:text-2xl" style={{ clipPath: 'polygon(95% 0, 100% 33%, 100% 100%, 0 100%, 0 0)' }}>
+    <div className="flex items-center justify-between bg-gray-500/30 p-2 py-4 pr-20 gap-5 rounded-xl mr-20 my-4 4xl:my-10 4xl:mx-80 4xl:px-40 4xl:text-2xl" style={{ clipPath: 'polygon(95% 0, 100% 33%, 100% 100%, 0 100%, 0 0)' }}>
 
       <div className="bg-black text-white w-60 rounded-2xl p-3">
         <div>
