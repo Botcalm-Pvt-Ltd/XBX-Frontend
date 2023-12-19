@@ -11,6 +11,8 @@ import { TbBrandTelegram } from "react-icons/tb";
 
 const Sidebar = () => {
   return (
+    <div className="max-xl:hidden">
+
     <div className="w-80 special:w-2/12 flex flex-col gap-5 justify-center items-center pt-20 special:pt-40 max-xl:text-sm max-xl:gap-20 max-xl:pt-40 special:gap-20 special:text-2xl">
       <h1 className="text-gray-600 Grotesk">/ Main Menu</h1>
       <div className="text-gray-600 flex flex-col max-xl:gap-10 gap-3 special:gap-10">
@@ -81,6 +83,7 @@ const Sidebar = () => {
         <SocialButton icon={TbBrandTelegram} />
       </div>
       <h1 className="Grotesk text-white">© Copyright 2003</h1>
+    </div>
     </div>
   );
 };

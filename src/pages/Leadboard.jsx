@@ -3,6 +3,8 @@ import LeaderBoardBody from "../components/Leadboard/leaderBoardBody";
 import LeaderBoardTable from "../components/Leadboard/LeaderBoardTable";
 import piecharttable from "../assets/Dashboard/piecharttable.png";
 import { PaginationNav1Presentation } from "../components/Pagination";
+import { MobilePaginationNav1Presentation } from "../components/MobileView/MobilePagination";
+import MobileLeadMainboard from "../components/MobileView/MobileLeadboard/MobileLeadMainboard";
 
 const Leadboard = () => {
   const LeaderBoardTable_ROWS = [
@@ -21,16 +23,26 @@ const Leadboard = () => {
       floppies: "295",
       referals: "1000",
       volume: "0.08 ETH",
-    }
+    },
   ];
   return (
-    <div className="overflow-y-hidden">
-      <LeaderBoardBody />
+    <div>
+      <div className="max-xl:hidden">
+        <LeaderBoardBody />
+      </div>
+      <div className="xl:hidden">
+        <MobileLeadMainboard />
+      </div>
       <div className="pt-16 px-20 special:pt-40 special:mr-80">
-        <LeaderBoardTable TABLE_ROWS={LeaderBoardTable_ROWS} />
-        <div className="flex justify-center">
+        <div className="max-xl:hidden">
+          <LeaderBoardTable TABLE_ROWS={LeaderBoardTable_ROWS} />
+        </div>
+        <div className="flex justify-center max-xl:hidden">
           <PaginationNav1Presentation />
         </div>
+        {/* <div className="flex justify-center xl:hidden">
+          <MobilePaginationNav1Presentation />
+        </div> */}
       </div>
     </div>
   );

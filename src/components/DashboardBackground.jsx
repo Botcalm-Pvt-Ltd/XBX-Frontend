@@ -8,13 +8,23 @@ import Ellipse_4 from "../assets/Dashboard/Ellipse_4.png";
 
 const DashboardBackground = () => {
   return (
-    <div className="absolute top-0 left-0 w-full h-full -z-20">
-      <img src={XBX} alt="XBX" className="w-3/12"/>
-      <img src={Ellipse_1} alt="XBX" className="absolute top-0"/>
-      <img src={Union} alt="XBX" className="absolute top-0 right-0 w-1/4"/>
-      <img src={Ellipse_2} alt="XBX" className="absolute bottom-0"/>
-      <img src={Ellipse_3} alt="XBX" className="absolute bottom-0 right-0 opacity-60"/>
-      <img src={Ellipse_4} alt="XBX" className="absolute bottom-0 right-0 opacity-60"/>
+    <div className="max-xl:hidden">
+      <div className="absolute top-0 left-0 w-full h-full -z-20">
+        <img src={XBX} alt="XBX" className="w-3/12" />
+        <img src={Ellipse_1} alt="XBX" className="absolute top-0" />
+        <img src={Union} alt="XBX" className="absolute top-0 right-0 w-1/4" />
+        <img src={Ellipse_2} alt="XBX" className="absolute bottom-0" />
+        <img
+          src={Ellipse_3}
+          alt="XBX"
+          className="absolute bottom-0 right-0 opacity-60"
+        />
+        <img
+          src={Ellipse_4}
+          alt="XBX"
+          className="absolute bottom-0 right-0 opacity-60"
+        />
+      </div>
     </div>
   );
 };

@@ -7,6 +7,9 @@ import DashboardBackground from "./components/DashboardBackground";
 import Header from "./components/Header";
 import Analytics from "./pages/Analytics";
 import Referrals from "./pages/Referrals";
+import MobileDashboardBackground from "./components/Mobileview/MobileDashboardBackground";
+import MobileHeader from "./components/MobileView/MobileHeader";
+import Mobilefooter from "./components/MobileView/Mobilefooter";
 
 function App() {
   return (
@@ -15,8 +18,11 @@ function App() {
         <Route element={<LandingPage />} path="/" />
         <Route element={ <>
               <Header/>
+              <MobileHeader/>
               <DashboardLayout />
               <DashboardBackground />
+              <MobileDashboardBackground />
+              <Mobilefooter/>
             </>}>
           <Route element={<Leadboard />} path="/leadboard" />
           <Route element={<Analytics />} path="/analytics" />

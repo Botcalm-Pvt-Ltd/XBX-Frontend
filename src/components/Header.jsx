@@ -6,7 +6,7 @@ import connection_logo from "../assets/Dashboard/connection_logo.png";
 
 const Header = () => {
   return (
-    <div >
+    <div className="max-xl:hidden">
     <div className="flex justify-between pt-10 px-20 special:px-40">
       <div className="flex items-center gap-40">
         <div>
