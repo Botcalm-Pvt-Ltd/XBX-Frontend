@@ -6,7 +6,7 @@ const ThreeSteps = () => {
   return (
     <section className='flex items-center lg:flex-row flex-col xl:px-20 gap-10 px-10 relative'>
       <div className='lg:w-1/3 w-full relative xl:hover:-translate-y-2 transition-all cursor-pointer z-10'>
-        <img src={stepsBorder} alt="border" className='w-full' />
+        <img src={stepsBorder} alt="border" className='w-full glass-effect-box steps-clip' />
         <div className='absolute -top-10 xl:-left-10'>
           <div className='w-20 relative'>
             <img src={stepsCount} alt="count" className='w-full h-full object-contain' />
@@ -20,7 +20,7 @@ const ThreeSteps = () => {
         </ul>
       </div>
       <div className='lg:w-1/3 w-full relative xl:-translate-y-10 xl:hover:-translate-y-12 transition-all cursor-pointer'>
-        <img src={stepsBorder} alt="border" className='w-full' />
+        <img src={stepsBorder} alt="border" className='w-full glass-effect-box steps-clip' />
         <div className='absolute -top-10 xl:-left-10'>
           <div className='w-20 relative'>
             <img src={stepsCount} alt="count" className='w-full h-full object-contain' />
@@ -34,7 +34,7 @@ const ThreeSteps = () => {
         </ul>
       </div>
       <div className='lg:w-1/3 w-full relative xl:-translate-y-24 xl:hover:-translate-y-28 transition-all cursor-pointer'>
-        <img src={stepsBorder} alt="border" className='w-full' />
+        <img src={stepsBorder} alt="border" className='w-full glass-effect-box steps-clip' />
         <div className='absolute -top-10 xl:-left-10'>
           <div className='w-20 relative'>
             <img src={stepsCount} alt="count" className='w-full h-full object-contain' />
