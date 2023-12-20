@@ -1,10 +1,13 @@
 import { motion } from 'framer-motion'
 import React from 'react'
+import zeroOneOne from '../assets/zero-one-one-zero.svg'
 
 const RoadMap = () => {
     return (
         <section className='text-white xl:px-20 px-10 pb-20 relative'>
-            <motion.div initial={{ x: 50 }} whileInView={{ x: 0 }} transition={{ duration: 1 }}  viewport={{ once: true }}>
+            <img src={zeroOneOne} alt="00.110" className='4xl:w-28 w-20 md:block hidden mr-auto 4xl:ml-96' />
+
+            <motion.div initial={{ x: 50 }} whileInView={{ x: 0 }} transition={{ duration: 1 }} viewport={{ once: true }}>
                 <h1 className='text-center xl:text-8xl md:text-5xl text-3xl header-font transform lg:translate-y-10 translate-y-5 md:tracking-widest mb-10 md:mb-3'><span className='stroke-text'>XBX </span>ROADMAP</h1>
             </motion.div>
             <div className='my-20 flex items-center justify-between md:flex-row flex-col gap-5 md:gap-0 z-10'>
@@ -18,14 +21,14 @@ const RoadMap = () => {
                 <div className='flex items-center justify-between w-full md:w-1/3 text-white md:px-10'>
                     <p className='text-xs 4xl:text-lg'>BETA TESTING</p>
                     <div className='w-1/2 bg-gray-500 rounded-full'>
-                    <motion.div initial={{ width: 0 }} whileInView={{ width: '86%' }} transition={{ duration: 1 }} className='bg-white p-1 rounded-full' />
+                        <motion.div initial={{ width: 0 }} whileInView={{ width: '86%' }} transition={{ duration: 1 }} className='bg-white p-1 rounded-full' />
                     </div>
                     <p className='text-xs 4xl:text-lg'>86%</p>
                 </div>
                 <div className='flex items-center justify-between w-full md:w-1/3 text-white md:px-10 z-10'>
                     <p className='text-xs 4xl:text-lg'>READY</p>
                     <div className='w-1/2 bg-gray-500 rounded-full'>
-                    <motion.div initial={{ width: 0 }} whileInView={{ width: '50%' }} transition={{ duration: 1 }} className='bg-white p-1 rounded-full' />
+                        <motion.div initial={{ width: 0 }} whileInView={{ width: '50%' }} transition={{ duration: 1 }} className='bg-white p-1 rounded-full' />
                     </div>
                     <p className='text-xs 4xl:text-lg'>50%</p>
                 </div>

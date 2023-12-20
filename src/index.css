@@ -1,9 +1,10 @@
+@import url('https://fonts.cdnfonts.com/css/eurostile-mn');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Space+Grotesk&display=swap');
+@import url("https://fonts.cdnfonts.com/css/dinpro-medium");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Space+Grotesk&display=swap');
-@import url("https://fonts.cdnfonts.com/css/dinpro-medium");
 
 :root {
   background-image: url(./assets/background-image.svg);

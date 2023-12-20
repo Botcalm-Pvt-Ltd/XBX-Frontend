@@ -6,18 +6,26 @@ import swapdesk02Mobile from '../assets/swap-box-2-mobile.svg'
 import starImage from '../assets/star.png'
 import { FaGreaterThan } from "react-icons/fa";
 import { motion } from 'framer-motion';
+import zeroOne from '../assets/zero-one.svg';
+import oneAA from '../assets/1A.svg';
+import union from '../assets/Union2.svg';
 
 const SwapSection = () => {
     return (
-        <section className='text-white xl:px-20 px-10 pb-20'>
-            <motion.div initial={{ x: 50 }} whileInView={{ x: 0 }} transition={{ duration: 1 }}  viewport={{ once: true }}>
+        <section className='relative text-white xl:px-20 px-10 pb-20'>
+            <img src={zeroOne} alt="00.1" className='w-8 md:w-10 4xl:w-12 ml-96 md:block hidden translate-y-32' />
+            <motion.div initial={{ x: 50 }} whileInView={{ x: 0 }} transition={{ duration: 1 }} viewport={{ once: true }}>
                 <h1 className='text-center xl:text-8xl md:text-5xl text-3xl header-font transform lg:translate-y-10 translate-y-5 md:tracking-widest mb-10 md:mb-6 xl:mb-3'><span className='stroke-text'>SWAP </span>AND<br /> SNIPER <span className='stroke-text'>BOT</span> TIERS</h1>
             </motion.div>
+            <img src={oneAA} alt="1.AA" className='w-8 md:w-10 4xl:w-12 mr-40 ml-auto mt-12 md:block hidden' />
+            <div className='md:w-[900px] w-full md:h-[900px] absolute md:-right-0 left-0 md:left-auto 4xl:top-0 md:top-0 -top-10'>
+                <img src={union} alt="union" className='w-full h-full md:object-contain object-cover' />
+            </div>
             {/* DESKTOP */}
             <div className='mb-10 md:mb-0 relative justify-between lg:px-10 items-center flex lg:flex-row flex-col-reverse'>
-                <div className='lg:w-1/2 xl:mt-2 w-full relative green-gradient-sm md:backdrop-blur-md xl:hover:-translate-y-2 transition-all cursor-pointer ' style={{clipPath: 'polygon(0% 0%, 85% 0%, 100% 15%, 100% 66%, 65% 100%, 0% 100%)'}}>
-                    <img src={swapdesk01} className='w-full h-full object-contain lg:block hidden' />
-                    <img src={swapdesk01Mobile} className='w-full h-full object-contain block lg:hidden' />
+                <div className='lg:w-1/2 xl:mt-2 w-full relative green-gradient-sm md:backdrop-blur-md xl:hover:-translate-y-2 transition-all cursor-pointer ' >
+                    <img src={swapdesk01} className='w-full h-full object-contain lg:block hidden glass-effect-box' style={{ clipPath: 'polygon(0% 0%, 83% 0%, 100% 19%, 100% 66%, 65% 100%, 0% 100%)' }} />
+                    <img src={swapdesk01Mobile} className='w-full h-full object-contain block lg:hidden glass-effect-box mb-5' style={{ clipPath: 'polygon(0% 0%, 70% 0%, 100% 19%, 100% 100%, 65% 100%, 0% 100%)' }} />
                     <div className='absolute md:top-3 top-10 left-0 w-full xl:px-20 px-10 xl:py-0 lg:py-10 md:py-28 4xl:py-32'>
                         <div className='w-full text-left md:ml-auto xl:mt-10 md:mr-16'>
                             <h1 className='md:text-4xl text-xl font-bold md:text-right'>XBX BOT</h1>
@@ -36,8 +44,12 @@ const SwapSection = () => {
                 <div className='w-52 flex items-start justify-center text-sm 4xl:text-2xl 4xl:w-72 md:mb-20 md:text-center my-10 md:my-0'><img src={starImage} className='w-3 text-white' /><h6><span className='text-gray-400'>AI adapts to your risk tolerance and </span>autonomously executes trades.</h6></div>
             </div>
             <div className='lg:w-1/2 relative blue-gradient-sm ml-auto lg:-mt-52 xl:hover:-translate-y-2 transition-all cursor-pointer'>
-                <img src={swapdesk02} className='w-full h-full object-contain lg:block hidden' />
-                <img src={swapdesk02Mobile} className='w-full h-full object-contain block lg:hidden' />
+                <img src={swapdesk02} className='w-full h-full object-contain lg:block hidden glass-effect-box' style={{
+                    clipPath: "polygon(31% 0%, 90% 0%, 100% 23%, 100% 100%, 0% 100%, 0% 37%)",
+                }} />
+                <img src={swapdesk02Mobile} className='w-full h-full object-contain block lg:hidden glass-effect-box' style={{
+                    clipPath: "polygon(30% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 25%)",
+                }} />
 
                 <div className='absolute md:top-3 top-10 left-0 w-full xl:px-20 px-10 xl:py-0 lg:py-10 md:py-28 4xl:py-32'>
                     <div className='w-60 ml-auto xl:mt-10 mr-16'>
