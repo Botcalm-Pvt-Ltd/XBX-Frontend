@@ -8,7 +8,7 @@ import Ellipse_4 from "../../assets/Dashboard/Ellipse_4.png";
 const MobileDashboardBackground = () => {
   return (
     <div className="xl:hidden">
-      <div className="absolute top-0 left-0 w-full h-full -z-20">
+      <div className="fixed top-0 left-0 w-full h-full -z-20">
         <img src={XBX} alt="XBX" className="w-full" />
         <img src={Ellipse_1} alt="Ellipse_1" className="absolute top-0 opacity-60" />
         <img src={Ellipse_2} alt="Ellipse_2" className="absolute bottom-0 opacity-60" />

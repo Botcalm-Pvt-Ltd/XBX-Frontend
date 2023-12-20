@@ -4,7 +4,7 @@ import LeaderBoardTable from "../components/Leadboard/LeaderBoardTable";
 import piecharttable from "../assets/Dashboard/piecharttable.png";
 import { PaginationNav1Presentation } from "../components/Pagination";
 import { MobilePaginationNav1Presentation } from "../components/MobileView/MobilePagination";
-import MobileLeadMainboard from "../components/MobileView/MobileLeadboard/MobileLeadMainboard";
+import MobileLeadboard from "../components/MobileView/MobileLeadboard/MobileLeadboard";
 
 const Leadboard = () => {
   const LeaderBoardTable_ROWS = [
@@ -31,7 +31,7 @@ const Leadboard = () => {
         <LeaderBoardBody />
       </div>
       <div className="xl:hidden">
-        <MobileLeadMainboard />
+        <MobileLeadboard />
       </div>
       <div className="pt-16 px-20 4xl:pt-40 4xl:mr-80">
         <div className="max-xl:hidden">
@@ -40,9 +40,9 @@ const Leadboard = () => {
         <div className="flex justify-center max-xl:hidden">
           <PaginationNav1Presentation />
         </div>
-        {/* <div className="flex justify-center xl:hidden">
+        <div className="flex justify-center xl:hidden">
           <MobilePaginationNav1Presentation />
-        </div> */}
+        </div>
       </div>
     </div>
   );

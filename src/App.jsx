@@ -7,9 +7,9 @@ import DashboardBackground from "./components/DashboardBackground";
 import Header from "./components/Header";
 import Analytics from "./pages/Analytics";
 import Referrals from "./pages/Referrals";
-import MobileDashboardBackground from "./components/Mobileview/MobileDashboardBackground";
 import MobileHeader from "./components/MobileView/MobileHeader";
 import Mobilefooter from "./components/MobileView/Mobilefooter";
+import MobileDashboardBackground from "./components/MobileView/MobileDashboardBackground";
 
 function App() {
   return (
