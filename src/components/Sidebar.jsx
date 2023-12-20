@@ -93,7 +93,7 @@ const Sidebar = () => {
           </div>
         </div>
       </div>
-      <div className="flex gap-5 px-10">
+      <div className="flex gap-5 px-10 pt-12">
         <SocialButton icon={FaXTwitter} />
         <SocialButton icon={FaGithub} />
         <SocialButton icon={TbBrandTelegram} />

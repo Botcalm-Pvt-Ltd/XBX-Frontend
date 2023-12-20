@@ -23,10 +23,11 @@ const Leadboard = () => {
       floppies: "295",
       referals: "1000",
       volume: "0.08 ETH",
+
     },
   ];
   return (
-    <div>
+    <div className="">
       <div className="max-xl:hidden">
         <LeaderBoardBody />
       </div>

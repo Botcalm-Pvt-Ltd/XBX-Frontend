@@ -10,7 +10,7 @@ const AnalyticsTable = ({ TABLE_ROWS }) => {
   return (
     <table className="table-fixed w-full text-left">
       <thead>
-        <tr className="text-white">
+        <tr className="text-gray-400">
           <th className="4xl:text-4xl">Name</th>
           <th className="4xl:text-4xl">LAUNCH STATS</th>
           <th className="4xl:text-4xl">XS (ATH)</th>
@@ -28,13 +28,16 @@ const AnalyticsTable = ({ TABLE_ROWS }) => {
                 <hr className="h-px bg-transparent border-0 py-2" />
               </td>
             </tr>
-            <tr className="text-gray-400 hover:text-white hover:bg-gradient-to-l from-gray-500 text-sm">
+            <tr className="text-gray-400 hover:text-white hover:bg-gradient-to-l from-gray-500 text-sm 4xl:text-4xl">
               <td className="">
                 <div className="flex gap-3">
+                <div className="flex justify-center items-center">
+                    <h1>{key + 1}</h1>
+                  </div>
                   <img
                     src={tablecol1}
                     alt="Arrow"
-                    className="w-8 h-10 4xl:w-10"
+                    className="w-8 h-10 4xl:w-20 4xl:h-20"
                   />
                   <div>
                     <h1>{details.name1}</h1>
@@ -58,12 +61,12 @@ const AnalyticsTable = ({ TABLE_ROWS }) => {
               <td className="4xl:text-4xl">{details.liquidity}</td>
               <td className="4xl:text-4xl">
                 <div>
-                  <img src={tablelist1} alt="tablelist1" />
+                  <img src={tablelist1} alt="tablelist1" className="4xl:w-10 4xl:h-10" />
                   <div className="flex py-2 gap-1">
-                    <img src={tablelist2} alt="tablelist2" />
-                    <img src={tablelist3} alt="tablelist3" />
-                    <img src={tablelist4} alt="tablelist4" />
-                    <img src={tablelist5} alt="tablelist5" />
+                    <img src={tablelist2} alt="tablelist2" className="4xl:w-10 4xl:h-10"/>
+                    <img src={tablelist3} alt="tablelist3" className="4xl:w-10 4xl:h-10"/>
+                    <img src={tablelist4} alt="tablelist4" className="4xl:w-10 4xl:h-10"/>
+                    <img src={tablelist5} alt="tablelist5" className="4xl:w-10 4xl:h-10"/>
                   </div>
                 </div>
               </td>

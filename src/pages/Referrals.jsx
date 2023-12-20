@@ -40,13 +40,13 @@ const Referrals = () => {
   return (
     <div>
       <div className="px-10 mr-20 pt-10">
-        <div className="flex justify-between 4xl:justify-start gap-0 4xl:gap-[1500px]">
+        <div className="flex justify-between 4xl:justify-start gap-0 4xl:gap-[800px] 4xl:pl-60">
           <ReferralsCard />
           <ReferralsCardcodes />
         </div>
         <div className="relative top-16 4xl:top-40">
           <h1 className="text-white text-2xl">YOUR REFERRALS STATS</h1>
-          <div>
+          <div className="pt-5">
             <ReferralTable TABLE_ROWS={LeaderBoardTable_ROWS} />
           </div>
         </div>

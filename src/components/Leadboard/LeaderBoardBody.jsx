@@ -9,7 +9,7 @@ import LeaderBoardButton from "./LeaderBoardButton";
 
 const LeaderBoardBody = () => {
   return (
-    <div className="pt-5 px-14">
+    <div className="pt-5">
       <div>
         <img
           src={Subtract}
@@ -18,7 +18,7 @@ const LeaderBoardBody = () => {
         />
       </div>
       <div>
-        <div className="flex items-center justify-center text-white 4xl:text-3xl relative 4xl:right-40">
+        <div className="flex items-center justify-center text-white 4xl:text-3xl relative right-10 4xl:right-40">
           <h1>
             <span className="text-gray-700">/ Last updated:</span> 01-09-2023
             16:51:51
@@ -27,7 +27,7 @@ const LeaderBoardBody = () => {
         <div className="flex items-center justify-between pt-10 px-20 mr-10 4xl:mr-96 4xl:pt-40">
           <div className="flex items-center justify-center gap-10">
             <div>
-              <img src={circleLogo} alt="circleLogo" className="4xl:w-60"/>
+              <img src={circleLogo} alt="circleLogo" className="w-28 4xl:w-60"/>
             </div>
             <div className="text-white Grotesk text-3xl 4xl:text-6xl">
               <h1>Mystic</h1>
