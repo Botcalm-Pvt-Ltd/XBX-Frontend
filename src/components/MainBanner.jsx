@@ -45,7 +45,7 @@ const MainBanner = () => {
                 <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
                     <div className='flex items-center justify-center md:gap-10 gap-5 w-full absolute top-1/2 left-0'>
                         <GlassButton label={'Join Portal'} />
-                        <GlassButton label={'Dashboard'}  onClick={() => navigate('/leadboard')}/>
+                        <GlassButton label={'Dashboard'}  to={"/leadboard"}/>
                     </div>
                 </motion.div>
             </div>

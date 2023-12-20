@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Leadboard from "../assets/Dashboard/Leadboard.png";
 import Referrals from "../assets/Dashboard/Referrals.png";
 import Analytics from "../assets/Dashboard/Analytics.png";
@@ -12,6 +12,9 @@ import { useNavigate } from "react-router-dom";
 
 const Sidebar = () => {
   const navigate = useNavigate();
+  useEffect(() => {
+
+  }, []);
   const handleClickLeadboard = () => {
     navigate("/leadboard");
   };
@@ -31,7 +34,7 @@ const Sidebar = () => {
       <div className="text-gray-600 flex flex-col max-xl:gap-10 gap-3 4xl:gap-10">
         <div className="flex items-center hover:text-white cursor-pointer">
           <div className="whiteBar relative left-3 bg-white" />
-          <div className="flex items-center Grotesk gap-3 headerBg p-3 px-10 max-xl:px-5" onClick={handleClickLeadboard()}>
+          <div className="flex items-center Grotesk gap-3 headerBg p-3 px-10 max-xl:px-5" onClick={handleClickLeadboard}>
             <img
               src={Leadboard}
               alt="Leadboard"
@@ -42,7 +45,7 @@ const Sidebar = () => {
         </div>
         <div className="flex items-center hover:text-white cursor-pointer">
           <div className="whiteBar relative left-3 bg-transparent" />
-          <div className="flex items-center Grotesk gap-3 p-3 px-10 max-xl:px-5" onClick={handleClickReferrals()}>
+          <div className="flex items-center Grotesk gap-3 p-3 px-10 max-xl:px-5" onClick={handleClickReferrals}>
             <img
               src={Referrals}
               alt="Referrals"
@@ -53,7 +56,7 @@ const Sidebar = () => {
         </div>
         <div className="flex items-center hover:text-white cursor-pointer">
           <div className="whiteBar relative left-3 bg-transparent" />
-          <div className="flex items-center Grotesk gap-3 p-3 px-10 max-xl:px-5" onClick={handleClickAnalytics()}>
+          <div className="flex items-center Grotesk gap-3 p-3 px-10 max-xl:px-5" onClick={handleClickAnalytics}>
             <img
               src={Analytics}
               alt="Analytics"
