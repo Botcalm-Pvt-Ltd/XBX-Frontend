@@ -19,9 +19,10 @@ const XBXTools = () => {
             <img src={oneAA} alt="1.AA" className='w-8 md:w-10 4xl:w-12 mx-auto mt-12 md:block hidden' />
             <br />
             <div className='flex items-start lg:ml-auto mx-auto lg:mx-0 text-sm 4xl:text-2xl md:mb-20 text-left md:text-center w-52 4xl:w-72'><img src={starImage} className='w-3 text-white' /><h6><span className='text-gray-400'>AI adapts to your risk tolerance and </span>autonomously executes trades.</h6></div>
+           {/* DESKTOP */}
             <div className='content-between flex-row lg:flex hidden xl:gap-5 xl:p-10 p-0 gap-1'>
-                <div className='w-1/4 relative xl:-translate-y-32 xl:hover:-translate-y-36 transition-all cursor-pointer'>
-                    <img src={borderBOx} alt="tool-border" className='w-full h-full object-contain' />
+                <div className='w-1/4 relative xl:-translate-y-32 xl:hover:-translate-y-36 transition-all cursor-pointer' >
+                    <img src={borderBOx} alt="tool-border" className='w-full h-full object-contain glass-effect-box tool-clip'/>
                     <div className='absolute top-0 left-0 p-10'>
                         <div className='w-16 h-16'>
                             <img src={upChart} alt="up-arrow" className='w-full h-full object-contain' />
@@ -34,7 +35,7 @@ const XBXTools = () => {
                     </div>
                 </div>
                 <div className='w-1/4 relative xl:-translate-y-20 xl:hover:-translate-y-24 transition-all cursor-pointer'>
-                    <img src={borderBOx} alt="tool-border" className='w-full h-full object-contain' />
+                    <img src={borderBOx} alt="tool-border" className='w-full h-full object-contain glass-effect-box tool-clip' />
                     <div className='absolute top-0 left-0 p-10'>
                         <div className='w-16 h-16'>
                             <img src={moneyIcon} alt="up-arrow" className='w-full h-full object-contain' />
@@ -47,7 +48,7 @@ const XBXTools = () => {
                     </div>
                 </div>
                 <div className='w-1/4 relative xl:-translate-y-10 xl:hover:-translate-y-12 transition-all cursor-pointer'>
-                    <img src={borderBOx} alt="tool-border" className='w-full h-full object-contain' />
+                    <img src={borderBOx} alt="tool-border" className='w-full h-full object-contain glass-effect-box tool-clip' />
                     <div className='absolute top-0 left-0 p-10'>
                         <div className='w-16 h-16'>
                             <img src={upChart} alt="up-arrow" className='w-full h-full object-contain' />
@@ -60,7 +61,7 @@ const XBXTools = () => {
                     </div>
                 </div>
                 <div className='w-1/4 relative xl:hover:-translate-y-2 transition-all cursor-pointer'>
-                    <img src={borderBOx} alt="tool-border" className='w-full h-full object-contain' />
+                    <img src={borderBOx} alt="tool-border" className='w-full h-full object-contain glass-effect-box tool-clip' />
                     <div className='absolute top-0 left-0 p-10'>
                         <div className='w-16 h-16'>
                             <img src={moneyIcon} alt="up-arrow" className='w-full h-full object-contain' />
@@ -73,9 +74,10 @@ const XBXTools = () => {
                     </div>
                 </div>
             </div>
+            {/* MOBILE */}
             <div className='content-between flex-col lg:hidden flex gap-10 mt-10 p-10'>
                 <div className='w-full relative'>
-                    <img src={mobileBorderBox} alt="tool-border" className='w-full h-full object-contain' />
+                    <img src={mobileBorderBox} alt="tool-border" className='w-full h-full object-contain glass-effect-box tool-clip-mobile' />
                     <div className='absolute top-0 left-0 p-5'>
                         <div className='w-10 h-10'>
                             <img src={upChart} alt="up-arrow" className='w-full h-full object-contain' />
@@ -88,7 +90,7 @@ const XBXTools = () => {
                     </div>
                 </div>
                 <div className='w-full relative'>
-                    <img src={mobileBorderBox} alt="tool-border" className='w-full h-full object-contain' />
+                    <img src={mobileBorderBox} alt="tool-border" className='w-full h-full object-contain  glass-effect-box tool-clip-mobile' />
                     <div className='absolute top-0 left-0 p-5'>
                         <div className='w-10 h-10'>
                             <img src={moneyIcon} alt="up-arrow" className='w-full h-full object-contain' />
@@ -101,7 +103,7 @@ const XBXTools = () => {
                     </div>
                 </div>
                 <div className='w-full relative'>
-                    <img src={mobileBorderBox} alt="tool-border" className='w-full h-full object-contain' />
+                    <img src={mobileBorderBox} alt="tool-border" className='w-full h-full object-contain  glass-effect-box tool-clip-mobile' />
                     <div className='absolute top-0 left-0 p-5'>
                         <div className='w-10 h-10'>
                             <img src={upChart} alt="up-arrow" className='w-full h-full object-contain' />
@@ -114,7 +116,7 @@ const XBXTools = () => {
                     </div>
                 </div>
                 <div className='w-full relative'>
-                    <img src={mobileBorderBox} alt="tool-border" className='w-full h-full object-contain' />
+                    <img src={mobileBorderBox} alt="tool-border" className='w-full h-full object-contain  glass-effect-box tool-clip-mobile' />
                     <div className='absolute top-0 left-0 p-5'>
                         <div className='w-10 h-10'>
                             <img src={moneyIcon} alt="up-arrow" className='w-full h-full object-contain' />
