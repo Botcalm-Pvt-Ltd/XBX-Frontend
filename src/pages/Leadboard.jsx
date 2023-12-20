@@ -4,7 +4,7 @@ import piecharttable from "../assets/Dashboard/piecharttable.png";
 import { PaginationNav1Presentation } from "../components/Pagination";
 import { MobilePaginationNav1Presentation } from "../components/MobileView/MobilePagination";
 import MobileLeadboard from "../components/MobileView/MobileLeadboard/MobileLeadboard";
-import LeaderBoardBody from "../components/Leadboard/leaderBoardBody";
+import LeaderBoardBody from "../components/Leadboard/LeaderBoardBody";
 
 const Leadboard = () => {
   const LeaderBoardTable_ROWS = [
