@@ -1,3 +1,44 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Space+Grotesk&display=swap');
+@import url("https://fonts.cdnfonts.com/css/dinpro-medium");
+
+:root {
+  background-color: black;
+}
+
+.Grotesk {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.Medium {
+  font-family: "Medium";
+}
+.headerBg {
+  border-radius: 12px;
+  background: rgba(30, 33, 48, 0.3);
+  box-shadow: 0px 1px 2px 0px rgba(255, 255, 255, 0.06) inset;
+  backdrop-filter: blur(9.699999809265137px);
+}
+.whiteBar {
+  width: 18px;
+  height: 38px;
+  flex-shrink: 0;
+  border-radius: 6px;
+}
+.hoverBgColor {
+  fill: linear-gradient(270deg, #000 7.13%, rgba(0, 0, 0, 0.00) 41.72%);
+}
+.gradient-border {
+  border-image: linear-gradient(45deg, white, rgb(55, 55, 55)) 1;
+  border-radius: 10px;
+  border: 1px solid;
+}
+
+.bullet-point::before {
+  content: '\2022';
+  color: #00FFE0;
+  font-size: 30px;
+}

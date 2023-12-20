@@ -5,9 +5,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 .blue-gradient {
-    background: radial-gradient(circle, rgba(0, 110, 172, 0.5) 1%, rgba(0, 0, 0, 0) 70%);
+    background: radial-gradient(circle, rgba(0, 110, 172, 0.5) 1%, rgba(0, 0, 0, 0) 70%);  
 }
 
 .green-gradient {
