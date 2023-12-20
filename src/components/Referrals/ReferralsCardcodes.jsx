@@ -1,5 +1,5 @@
 import React from "react";
-import greenCard from "../../assets/Referrals/greenCard.png";
+import greenCard from "../../assets/Referrals/greencard.png";
 import { PiCopySimple } from "react-icons/pi";
 
 const ReferralsCardcodes = () => {
