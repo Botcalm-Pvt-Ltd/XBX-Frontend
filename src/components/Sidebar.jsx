@@ -8,8 +8,21 @@ import lock from "../assets/Dashboard/lock.png";
 import SocialButton from "./SocialButton";
 import { FaXTwitter, FaGithub } from "react-icons/fa6";
 import { TbBrandTelegram } from "react-icons/tb";
+import { useNavigate } from "react-router-dom";
 
 const Sidebar = () => {
+  const navigate = useNavigate();
+  const handleClickLeadboard = () => {
+    navigate("/leadboard");
+  };
+
+  const handleClickReferrals = () => {
+    navigate("/referral");
+  };
+
+  const handleClickAnalytics = () => {
+    navigate("/analytics");
+  };
   return (
     <div className="max-xl:hidden">
 
@@ -18,7 +31,7 @@ const Sidebar = () => {
       <div className="text-gray-600 flex flex-col max-xl:gap-10 gap-3 4xl:gap-10">
         <div className="flex items-center hover:text-white cursor-pointer">
           <div className="whiteBar relative left-3 bg-white" />
-          <div className="flex items-center Grotesk gap-3 headerBg p-3 px-10 max-xl:px-5">
+          <div className="flex items-center Grotesk gap-3 headerBg p-3 px-10 max-xl:px-5" onClick={handleClickLeadboard()}>
             <img
               src={Leadboard}
               alt="Leadboard"
@@ -29,7 +42,7 @@ const Sidebar = () => {
         </div>
         <div className="flex items-center hover:text-white cursor-pointer">
           <div className="whiteBar relative left-3 bg-transparent" />
-          <div className="flex items-center Grotesk gap-3 p-3 px-10 max-xl:px-5">
+          <div className="flex items-center Grotesk gap-3 p-3 px-10 max-xl:px-5" onClick={handleClickReferrals()}>
             <img
               src={Referrals}
               alt="Referrals"
@@ -40,7 +53,7 @@ const Sidebar = () => {
         </div>
         <div className="flex items-center hover:text-white cursor-pointer">
           <div className="whiteBar relative left-3 bg-transparent" />
-          <div className="flex items-center Grotesk gap-3 p-3 px-10 max-xl:px-5">
+          <div className="flex items-center Grotesk gap-3 p-3 px-10 max-xl:px-5" onClick={handleClickAnalytics()}>
             <img
               src={Analytics}
               alt="Analytics"
