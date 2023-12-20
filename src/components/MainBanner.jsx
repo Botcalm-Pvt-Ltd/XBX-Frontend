@@ -79,7 +79,7 @@ const MainBanner = () => {
                 <div className='w-72 relative'>
                     <div className='flex items-start text-sm 4xl:text-2xl md:mb-20 text-left md:text-center'><img src={starImage} className='w-3 text-white' /><h6><span className='text-gray-400'>AI adapts to your risk tolerance and </span>autonomously executes trades.</h6></div>
                     <p className='text-white text-sm mb-5 4xl:text-lg'>Support Chains</p>
-                    <div className='flex items-center justify-between gap-3'>
+                    <div className='flex items-center justify-between gap-3 z-10 relative'>
                         <div className='w-16 h-16 cursor-pointer'>
                             <img src={chain1} alt="supported-chains" className='w-full h-full object-contain hover:brightness-150' />
                         </div>
