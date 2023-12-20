@@ -1,5 +1,6 @@
 @import url('https://fonts.cdnfonts.com/css/eurostile-mn');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,38 +9,53 @@
     background: radial-gradient(circle, rgba(0, 110, 172, 0.5) 1%, rgba(0, 0, 0, 0) 70%);  
 }
 
-.green-gradient{
-    background: radial-gradient(circle, rgba(0, 255, 224, 0.7) 1%, rgba(0, 0, 0, 0) 70%);  
+.green-gradient {
+    background: radial-gradient(circle, rgba(0, 255, 224, 0.7) 1%, rgba(0, 0, 0, 0) 70%);
 }
 
-.green-gradient-sm{
-    background: radial-gradient(circle, rgba(0, 255, 224, 0.1) 1%, rgba(0, 0, 0, 0) 50%);  
-}
-.blue-gradient-sm{
-    background: radial-gradient(circle, rgba(0, 110, 172, 0.2) 1%, rgba(0, 0, 0, 0) 50%);  
-}
-.blue-gradient-lg{
-    background: radial-gradient(circle, rgba(0, 110, 172, 0.2) 1%, rgba(0, 0, 0, 0) 70%);  
+.green-gradient-sm {
+    background: radial-gradient(circle, rgba(0, 255, 224, 0.1) 1%, rgba(0, 0, 0, 0) 50%);
 }
 
-.header-font{
+.blue-gradient-sm {
+    background: radial-gradient(circle, rgba(0, 110, 172, 0.2) 1%, rgba(0, 0, 0, 0) 50%);
+}
+
+.blue-gradient-lg {
+    background: radial-gradient(circle, rgba(0, 110, 172, 0.2) 1%, rgba(0, 0, 0, 0) 70%);
+}
+
+.header-font {
     font-family: 'Eurostile MN', sans-serif !important;
 }
-.stroke-text{
+
+.stroke-text {
     color: white;
-    -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+    -webkit-text-fill-color: transparent;
+    /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: white;
 }
-.bg-noise-image{
+
+.bg-noise-image {
     background-image: url(./assets/background-image.svg);
     background-size: cover;
     background-position: center;
 }
-.tool-box-border{
+
+.tool-box-border {
     background-image: url(./assets/tool-box.svg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     box-sizing: border-box;
+}
+
+.glass-btn {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(0px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
 }

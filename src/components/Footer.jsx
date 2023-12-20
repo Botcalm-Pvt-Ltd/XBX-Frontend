@@ -18,7 +18,7 @@ const Footer = () => {
         <Link to={'https://www.telegram.com'} target='_blank' className='hover:brightness-50'><PiTelegramLogo /></Link>
       </div>
       <div className='w-fit xl:absolute xl:left-1/2 xl:bottom-10 transform xl:-translate-x-1/2 text-center 4xl:text-xl'>
-      {date.getFullYear()} © Copyright XBX
+      {date.getFullYear()} © XBX
       </div>
       <nav className=' items-center justify-end xl:flex hidden w-fit md:leading-snug'>
         <div className='mr-10 4xl:text-lg'>
