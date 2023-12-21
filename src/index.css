@@ -84,3 +84,6 @@
   clip-path: polygon(85% 0, 100% 20%, 100% 100%, 0% 100%, 0% 0%);
   z-index: -1;
 }
+.bg-shadow {
+  filter:drop-shadow( 16px 16px #ff0000);
+}
