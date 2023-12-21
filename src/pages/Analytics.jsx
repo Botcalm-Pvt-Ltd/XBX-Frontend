@@ -51,7 +51,7 @@ const Analytics = () => {
     },
   ];
   return (
-    <div>
+    <div className="4xl:mr-40">
       <div className="max-xl:hidden">
         <AnalyticsHead />
       </div>

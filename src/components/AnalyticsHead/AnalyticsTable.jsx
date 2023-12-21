@@ -8,7 +8,7 @@ import tablelist5 from "../../assets/Analytics/tablelist5.png";
 
 const AnalyticsTable = ({ TABLE_ROWS }) => {
   return (
-    <table className="table-fixed w-full text-left">
+    <table className="table-fixed w-full text-left 4xl:ml-40">
       <thead>
         <tr className="text-gray-400">
           <th className="4xl:text-4xl">Name</th>
