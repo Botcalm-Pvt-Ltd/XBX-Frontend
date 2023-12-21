@@ -4,13 +4,13 @@ const MobileReferralsContantCard = ({num, wallet, volume, code}) => {
   return (
 <div className="flex justify-center items-center py-3">
       <div
-        className=" p-[1px] rounded-xl w-[310px] mx-10 "
+        className="bg-white p-[1px] rounded-xl w-[310px] mx-10 "
         style={{
           clipPath: "polygon(85% 0, 100% 20%, 100% 100%, 0% 100%, 0% 0%)",
         }}
       >
         <div
-          className="w-full flex flex-col items-center justify-center gap-5 glass-effect-box p-3 rounded-xl text-white"
+          className="w-full flex flex-col items-center justify-center gap-5 glass-effect-box2 p-3 rounded-xl text-white"
           style={{
             clipPath: "polygon(85% 0, 100% 20%, 100% 100%, 0% 100%, 0% 0%)",
           }}

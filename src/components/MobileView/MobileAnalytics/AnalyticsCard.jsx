@@ -21,7 +21,7 @@ const AnalyticsCard = () => {
         }}
       >
         <div
-          className="w-full flex flex-col items-center p-5 justify-start gap-5 bg-gray-800 rounded-xl text-white"
+          className="w-full flex flex-col items-center p-5 justify-start gap-5 glass-effect-box3 rounded-xl text-white"
           style={{
             clipPath: "polygon(85% 0, 100% 10%, 100% 100%, 0% 100%, 0% 0%)",
           }}

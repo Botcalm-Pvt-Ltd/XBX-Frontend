@@ -37,7 +37,7 @@ const AnalyticsTable = ({ TABLE_ROWS }) => {
                   <img
                     src={tablecol1}
                     alt="Arrow"
-                    className="w-8 h-10 4xl:w-20 4xl:h-20 bg-shadow"
+                    className="w-8 h-10 4xl:w-20 4xl:h-20"
                   />
                   <div>
                     <h1>{details.name1}</h1>
