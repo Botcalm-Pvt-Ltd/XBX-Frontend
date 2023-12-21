@@ -26,7 +26,7 @@ const Sidebar = () => {
 
     <div className="w-80 flex flex-col gap-5 justify-center items-center pt-20 4xl:pt-40 max-xl:text-sm max-xl:gap-20 max-xl:pt-40 4xl:gap-20 4xl:text-2xl ">
       <h1 className="text-gray-600 Grotesk">/ Main Menu</h1>
-      <div className="text-gray-600 flex flex-col max-xl:gap-10 gap-3 4xl:gap-10">
+      <div className="text-gray-600 flex flex-col max-xl:gap-10 gap-2 4xl:gap-10">
         <div className="flex items-center hover:text-white cursor-pointer">
           <div className={`whiteBar relative left-3 ${selectedItem === "Leadboard" ? "bg-white" : "bg-transparent"}`} />
           <div className={`flex items-center Grotesk gap-3  p-3 px-10 max-xl:px-5 ${selectedItem === "Leadboard" ? "headerBg text-white" : ""}`} onClick={() => handleItemClick("Leadboard")}>

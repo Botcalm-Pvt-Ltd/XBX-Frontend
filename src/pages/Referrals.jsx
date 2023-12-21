@@ -77,7 +77,7 @@ const Referrals = () => {
           ))}
         </div>
       </div>
-      <div className="flex justify-center max-xl:hidden pt-12 4xl:pt-80">
+      <div className="flex justify-center max-xl:hidden pt-10 4xl:pt-80">
         <PaginationNav1Presentation />
       </div>
       <div className="flex justify-center xl:hidden">

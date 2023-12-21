@@ -108,7 +108,7 @@ const MobileHeader = () => {
             <h1 className="uppercase text-white Medium">CONNECTED</h1>
           </div>
         </div>
-          <div className="text-gray-600 flex flex-col justify-center items-start pt-20 gap-5 text-2xl pl-20">
+          <div className="text-gray-600 flex flex-col justify-center items-start pt-20 gap-5 text-2xl pl-21">
             <div className="flex items-center hover:text-white cursor-pointer">
               <div
                 className={`whiteBar relative left-3 ${

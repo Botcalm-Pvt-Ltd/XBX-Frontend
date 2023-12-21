@@ -20,7 +20,7 @@ const Header = () => {
 
   return (
     <div className="max-xl:hidden">
-      <div className="flex justify-between pt-10 px-20 4xl:px-40">
+      <div className="flex justify-between pt-5 px-20 4xl:px-40">
         <div className="flex items-center gap-40">
           <div>
             <img src={logo} alt="logo" className=" 4xl:w-80" />

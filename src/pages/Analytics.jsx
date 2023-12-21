@@ -61,7 +61,7 @@ const Analytics = () => {
       <div className="max-xl:hidden">
         <AnalyticsTable TABLE_ROWS={LeaderBoardTable_ROWS} />
       </div>
-      <div className="flex justify-center max-xl:hidden pt-12 4xl:pt-20">
+      <div className="flex justify-center max-xl:hidden pt-10 4xl:pt-20">
         <PaginationNav1Presentation />
       </div>
       <div className="flex justify-center xl:hidden">
