@@ -4,9 +4,9 @@ import AnalyticsCard from "./AnalyticsCard";
 
 const MobileAnalytics = () => {
   return (
-    <div>
+    <div className="mx-10">
       <FilterButton />
-      <div className="grid md:grid-cols-2">
+      <div className="grid md:grid-cols-2 gap-x-5 pt-5">
         <AnalyticsCard />
         <AnalyticsCard />
         <AnalyticsCard />

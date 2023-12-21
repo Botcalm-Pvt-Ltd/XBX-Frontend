@@ -31,15 +31,15 @@ const Header = () => {
               className="w-10 h-10 4xl:w-32 4xl:h-32"
             />
             <div className="text-xs 4xl:text-2xl">
-              <h1 className="text-gray-500 Grotesk">DIV</h1>
+              <h1 className="text-gray-500 Grotesk 4xl:text-4xl">DIV</h1>
               <div className="flex items-center">
                 <select
-                  className="text-white Grotesk bg-black/80 border-none outline-none cursor-pointer"
+                  className="text-white Grotesk bg-black/80 border-none outline-none cursor-pointer 4xl:text-4xl"
                   value={selectedAddress}
                   onChange={handleAddressChange}
                 >
                   {ethereumAddresses.map((address, index) => (
-                    <option key={index} value={address}>
+                    <option key={index} value={address} className="bg-black/80 text-[10px]">
                       {address}
                     </option>
                   ))}

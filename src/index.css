@@ -45,7 +45,13 @@
   color: #00FFE0;
   font-size: 30px;
 }
-/* RadioSelect.css */
+
+.Mobile-bullet-point::before {
+  content: '\2022';
+  color: #00FFE0;
+  font-size: 20px;
+}
+
 
 .styled-checkbox {
   width: 24px;
@@ -59,21 +65,22 @@
   outline: none;
   cursor: pointer;
 }
-.poligon {
-  height: 160px;
-  width: 160px;
-  background-color: black;
-  clip-path: polygon(95% 0, 100% 33%, 100% 100%, 0 100%, 0 0);
+.glass-effect-box {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
-.poligon::before {
-  content: "";
-  display: block;
-  position: relative;
-  top: 5px;
-  left: 5px;
-  height: 150px;
-  width: 150px;
-  background-color: red;
-  clip-path: inherit;
+.padding-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white; /* Set the color for the padding here */
+  clip-path: polygon(85% 0, 100% 20%, 100% 100%, 0% 100%, 0% 0%);
+  z-index: -1;
 }

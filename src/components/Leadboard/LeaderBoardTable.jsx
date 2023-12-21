@@ -46,7 +46,7 @@ const LeaderBoardTable = ({ TABLE_ROWS }) => {
                 <div
                   className={`${
                     selectedRow === index
-                      ? "bg-gray-400/40 rounded-full w-10 h-10 flex items-center justify-center relative right-3"
+                      ? "bg-gray-400/40 rounded-full w-10 h-10 4xl:w-20 4xl:h-20 flex items-center justify-center relative right-3 4xl:right-6"
                       : ""
                   }`}
                 >
