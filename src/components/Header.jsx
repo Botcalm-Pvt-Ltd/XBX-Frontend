@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import logo from "../assets/Dashboard/logo.png";
 import pie_chart from "../assets/Dashboard/pie_chart.png";
-import arrow from "../assets/Dashboard/arrow.png";
 import connection_logo from "../assets/Dashboard/connection_logo.png";
 
 const Header = () => {
