@@ -23,11 +23,11 @@ const Analytics2Signals = () => {
   return (
     <div>
       <div className="absolute -z-10">
-        <img src={bottom_card2} alt="bottom_card2" />
+        <img src={bottom_card2} alt="bottom_card2" className="4xl:w-[1600px] 4xl:h-[500px]"/>
       </div>
-      <div className="p-5 ml-5">
-        <h1 className="text-white Grotesk pb-5">Signals</h1>
-        <div className="mr-20">
+      <div className="p-5 ml-5 4xl:pt-16">
+        <h1 className="text-white Grotesk pb-5 4xl:text-6xl">Signals</h1>
+        <div className="mr-20 4xl:pt-10">
           <AnalyticsCardTable TABLE_ROWS={AnalyticsTable_ROWS} />
         </div>
       </div>

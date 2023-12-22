@@ -3,16 +3,16 @@ import LeaderBoardButton from "../Leadboard/LeaderBoardButton";
 
 const Analytics2Table = ({ TABLE_ROWS }) => {
   return (
-    <table className="table-fixed w-full text-left Grotesk">
+    <table className="table-fixed w-full text-left Grotesk 4xl:text-4xl">
       <thead>
         <tr className="text-gray-500">
-          <th className="w-28 pb-7">DATE</th>
-          <th className="w-28 pb-7">Type</th>
-          <th className="w-28 pb-7">USD</th>
-          <th className="w-28 pb-7">ZuZU</th>
-          <th className="w-28 pb-7">WETH</th>
-          <th className="w-28 pb-7">Price</th>
-          <th className="w-28 relative left-5 pb-7">TXN</th>
+          <th className="w-28 pb-7 4xl:w-80">DATE</th>
+          <th className="w-28 pb-7 4xl:w-80">Type</th>
+          <th className="w-28 pb-7 4xl:w-80">USD</th>
+          <th className="w-28 pb-7 4xl:w-80">ZuZU</th>
+          <th className="w-28 pb-7 4xl:w-80">WETH</th>
+          <th className="w-28 pb-7 4xl:w-80">Price</th>
+          <th className="w-28 relative left-5 pb-7 4xl:w-80">TXN</th>
         </tr>
         <td colSpan="8">
           <hr className="h-px bg-transparent border-1 py-2 border-gray-600/50" />

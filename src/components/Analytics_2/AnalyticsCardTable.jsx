@@ -2,9 +2,9 @@ import React from 'react'
 
 const AnalyticsCardTable = ({ TABLE_ROWS }) => {
   return (
-<table className="table-fixed w-full text-left Grotesk">
+<table className="table-fixed w-full text-left Grotesk 4xl:w-4/5">
       <thead>
-        <tr className="text-gray-500">
+        <tr className="text-gray-500 4xl:text-4xl">
           <th className="">DATE</th>
           <th className="">MC</th>
           <th className="">SOCIAL</th>
@@ -16,7 +16,7 @@ const AnalyticsCardTable = ({ TABLE_ROWS }) => {
       <tbody>
         {TABLE_ROWS.map((details, key) => (
           <React.Fragment key={key}>
-            <tr className="text-white text-left group">
+            <tr className="text-white text-left group 4xl:text-4xl">
               <td className="">{details.date}</td>
               <td className="">
                 {details.mc}

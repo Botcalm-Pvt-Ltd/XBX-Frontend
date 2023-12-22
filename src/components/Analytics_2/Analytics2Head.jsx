@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import Arrow from "../../assets/Analytics-2/sidearrow.png";
 import headlogo from "../../assets/Analytics-2/headlogo.png";
 import { LuCopy } from "react-icons/lu";
@@ -9,31 +9,48 @@ import tablelist4 from "../../assets/Analytics/tablelist4.png";
 import tablelist5 from "../../assets/Analytics/tablelist5.png";
 
 const Analytics2Head = () => {
+  const tokenAddressRef = useRef(null);
+  const pairAddressRef = useRef(null);
+
+  const handleCopy = (value) => {
+    const tempTextArea = document.createElement("textarea");
+    tempTextArea.value = value;
+    document.body.appendChild(tempTextArea);
+    tempTextArea.select();
+    document.execCommand("copy");
+    document.body.removeChild(tempTextArea);
+  };
   return (
-    <div className="flex justify-between items-center ">
+    <div className="flex justify-between items-center">
       <div>
         <div className="flex justify-start items-center text-white gap-2">
           <div>
-            <img src={Arrow} alt="Arrow" />
+            <img src={Arrow} alt="Arrow" className="4xl:w-20" />
           </div>
           <div>
-            <img src={headlogo} alt="headlogo" />
+            <img src={headlogo} alt="headlogo" className="4xl:w-28" />
           </div>
           <div className="pl-5 text-sm">
             <div>
-              <h1>ZUZU</h1>
+              <h1 className="4xl:text-4xl">ZUZU</h1>
             </div>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 4xl:text-3xl">
               <div className="flex items-center gap-2">
                 <h1 className="text-gray-500">Token Address :</h1>
-                <LuCopy />
-                <h1>0XE6B2...E138</h1>
+                <LuCopy
+                  onClick={() => handleCopy(tokenAddressRef.current.innerText)}
+                  className="cursor-pointer"
+                />
+                <h1 ref={tokenAddressRef}>0XE6B2...E138</h1>
               </div>
               <div className="h-5 w-[1px] bg-gray-500/80" />
               <div className="flex items-center gap-2">
                 <h1 className="text-gray-500">PAIR ADDRESS :</h1>
-                <LuCopy />
-                <h1>0XA791...99F9</h1>
+                <LuCopy
+                  onClick={() => handleCopy(pairAddressRef.current.innerText)}
+                  className="cursor-pointer"
+                />
+                <h1 ref={pairAddressRef}>0XA791...99F9</h1>
               </div>
               <div></div>
             </div>

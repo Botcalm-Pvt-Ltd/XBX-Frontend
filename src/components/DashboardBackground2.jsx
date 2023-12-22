@@ -18,9 +18,9 @@ const DashboardBackground2 = () => {
           alt="XBX"
           className="absolute bottom-0 right-0 opacity-60"
         />
-        <div className="flex items-end relative top-[600px]">
+        <div className="flex items-end relative top-[600px] 4xl:top-[1200px]">
           <img src={Ellipse_2} alt="XBX" />
-          <img src={Ellipse_3} alt="XBX" />
+          <img src={Ellipse_3} alt="XBX" className="absolute bottom-0 right-0 opacity-60"/>
         </div>
       </div>
     </div>
