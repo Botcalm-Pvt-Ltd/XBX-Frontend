@@ -65,7 +65,7 @@ const Analytics2Holders = () => {
         <img src={bottom_card1} alt="bottom_card1" className="4xl:w-[1000px]"/>
       </div>
       <div className="p-5 pl-10">
-      <div className="flex flex-col gap-3">
+      <div className="flex flex-col">
         <h1 className="text-white Grotesk text-xl 4xl:text-6xl">Holders</h1>
         <div className="text-white flex justify-between items-center gap-5 text-xs 4xl:text-3xl">
             <div className="flex justify-center items-center gap-2"><div className="w-3 h-3 4xl:w-7 4xl:h-7 bg-red-800"></div><div>SOLD</div></div>
@@ -75,7 +75,7 @@ const Analytics2Holders = () => {
             <div className="flex justify-center items-center gap-2"><div className="w-3 h-3 4xl:w-7 4xl:h-7 bg-purple-700"></div><div>TRANSFER</div></div>
         </div>
       </div>
-      <div className="pt-5 grid analyticsColorGrid">
+      <div className="pt-5 grid analyticsColorGrid 4xl:pt-16">
       {colorId.map((item, index) => (
         <div
           key={index}

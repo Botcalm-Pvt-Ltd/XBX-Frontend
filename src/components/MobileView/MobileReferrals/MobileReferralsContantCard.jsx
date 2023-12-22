@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react";
 
-const MobileReferralsContantCard = ({num, wallet, volume, code}) => {
+const MobileReferralsContantCard = ({ num, wallet, volume, code }) => {
   return (
-<div className="flex justify-center items-center py-3">
+    <div className="flex justify-center items-center py-3">
       <div
         className="bg-white p-[1px] rounded-xl w-[310px] mx-10 "
         style={{
@@ -17,7 +17,7 @@ const MobileReferralsContantCard = ({num, wallet, volume, code}) => {
         >
           <div className="flex flex-col gap-5 w-80 Grotesk mx-10 p-3 text-white px-8">
             <div className="flex justify-between items-start gap-5">
-              <div className='rounded-xl bg-gray-600/50 p-3 px-5 ring-1 ring-white'>
+              <div className="rounded-xl bg-gray-600/50 p-3 px-5 ring-1 ring-white">
                 <h1>{num}</h1>
               </div>
               <div className="flex flex-col gap-5">
@@ -42,8 +42,7 @@ const MobileReferralsContantCard = ({num, wallet, volume, code}) => {
         </div>
       </div>
     </div>
+  );
+};
 
-  )
-}
-
-export default MobileReferralsContantCard
+export default MobileReferralsContantCard;

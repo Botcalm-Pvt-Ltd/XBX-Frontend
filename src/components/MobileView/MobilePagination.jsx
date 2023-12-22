@@ -134,7 +134,7 @@ function MobilePaginationNav1Presentation() {
   const [pageIndex, setPageIndex] = useState(0);
   const pageCount = 10;
   return (
-    <div className="flex gap-3 flex-wrap p-6 py-12">
+    <div className="flex gap-3 flex-wrap p-6">
       <PaginationNav1
         gotoPage={setPageIndex}
         canPreviousPage={pageIndex > 0}

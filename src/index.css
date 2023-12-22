@@ -103,3 +103,6 @@
 .analyticsColorGrid {
   grid-template-columns: repeat(18, minmax(0, 1fr));
 }
+.MobileAnalyticsColorGrid{
+  grid-template-columns: repeat(11, minmax(0, 1fr));
+}
