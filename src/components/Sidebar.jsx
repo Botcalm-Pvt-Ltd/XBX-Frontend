@@ -61,7 +61,7 @@ const Sidebar = () => {
           </div>
         </div>
 
-        <hr className="h-px my-4 mx-8 bg-gray-200 border-0 dark:bg-gray-700" />
+        <hr className="h-px my-4 mx-8 bg-gray-200 border-0 " />
 
         <div className="flex items-center hover:text-white cursor-pointer">
           <div className="whiteBar relative left-3 bg-transparent" />
@@ -93,7 +93,7 @@ const Sidebar = () => {
         <SocialButton icon={FaGithub} />
         <SocialButton icon={TbBrandTelegram} />
       </div>
-      <h1 className="Grotesk text-white">© Copyright 2003</h1>
+      <h1 className="Grotesk text-gray-600">© Copyright 2003</h1>
     </div>
     </div>
   );
