@@ -7,8 +7,10 @@ import tablelist2 from "../../assets/Analytics/tablelist2.png";
 import tablelist3 from "../../assets/Analytics/tablelist3.png";
 import tablelist4 from "../../assets/Analytics/tablelist4.png";
 import tablelist5 from "../../assets/Analytics/tablelist5.png";
+import { useNavigate } from "react-router";
 
 const Analytics2Head = () => {
+  const navigate = useNavigate();
   const tokenAddressRef = useRef(null);
   const pairAddressRef = useRef(null);
 
@@ -20,11 +22,15 @@ const Analytics2Head = () => {
     document.execCommand("copy");
     document.body.removeChild(tempTextArea);
   };
+
+  const handleBack = () =>{
+navigate("/analytics")
+  }
   return (
     <div className="flex justify-between items-center">
       <div>
         <div className="flex justify-start items-center text-white gap-2">
-          <div>
+          <div onClick={handleBack} className="cursor-pointer">
             <img src={Arrow} alt="Arrow" className="4xl:w-20" />
           </div>
           <div>

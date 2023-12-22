@@ -47,7 +47,7 @@ const AnalyticsHead = () => {
           <RadioSelect />
         </div>
         <div>
-          <AnalyticsButton label={"Apply"} />
+          <AnalyticsButton label={"Apply"} to={"/analytics2"}/>
         </div>
       </div>
     </div>
