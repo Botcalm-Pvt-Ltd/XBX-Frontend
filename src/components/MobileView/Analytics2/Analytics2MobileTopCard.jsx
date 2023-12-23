@@ -5,9 +5,9 @@ const Analytics2MobileTopCard = () => {
   return (
 <div className="flex justify-center">
       <div className="absolute -z-10">
-        <img src={topCard} alt="topCard" className="w-80 sm:w-80 sm:h-60"/>
+        <img src={topCard} alt="topCard" className="w-80 sm:w-80 sm:h-80"/>
       </div>
-      <div className="flex flex-col gap-7 text-white text-lg pt-6 w-full">
+      <div className="flex flex-col gap-7 text-white text-lg pt-6 sm:pt-20 w-full">
         <div className="flex justify-between items-center gap-12">
           <div>
             <h1 className="text-gray-500 text-xs">MARKET CAP</h1>

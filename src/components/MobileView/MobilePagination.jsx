@@ -85,8 +85,8 @@ function PaginationNav1({
         pageIndices.push(pageNumberAfter);
       }
     });
-    return pageIndices.map((pageIndexToMap) => (
-      <li key={pageIndexToMap}>
+    return pageIndices.map((pageIndexToMap, index) => (
+      <li key={index}>
         <Button2
           content={pageIndexToMap + 1}
           onClick={() => gotoPage(pageIndexToMap)}

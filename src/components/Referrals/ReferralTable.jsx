@@ -15,8 +15,8 @@ const ReferralTable = ({ TABLE_ROWS }) => {
               </td>
       </thead>
       <tbody>
-        {TABLE_ROWS.map((details, key) => (
-          <React.Fragment key={key}>
+        {TABLE_ROWS.map((details, index) => (
+          <React.Fragment key={index}>
             <tr className="text-gray-400 hover:text-white">
               <td className="4xl:text-4xl">{details.id}</td>
               <td className="4xl:text-4xl relative right-48 4xl:right-96">{details.wallet}</td>

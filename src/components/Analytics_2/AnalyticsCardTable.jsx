@@ -14,8 +14,8 @@ const AnalyticsCardTable = ({ TABLE_ROWS }) => {
         </td>
       </thead>
       <tbody>
-        {TABLE_ROWS.map((details, key) => (
-          <React.Fragment key={key}>
+        {TABLE_ROWS.map((details, index) => (
+          <React.Fragment key={index}>
             <tr className="text-white text-left group 4xl:text-4xl">
               <td className="">{details.date}</td>
               <td className="">

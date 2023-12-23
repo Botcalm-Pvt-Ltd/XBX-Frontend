@@ -11,6 +11,8 @@ import MobileTableCard from "../components/MobileView/Analytics2/MobileTableCard
 import { MobilePaginationNav1Presentation } from "../components/MobileView/MobilePagination";
 import MobileAnalytics2Holders from "../components/MobileView/Analytics2/MobileAnalytics2Holders";
 import MobileAnalytics2Signals from "../components/MobileView/MobileReferrals/MobileAnalytics2Signals";
+import Analytics2Graph from "../components/Analytics_2/Analytics2Graph";
+import Analytics2MobileGraph from "../components/MobileView/Analytics2/Analytics2MobileGraph";
 
 const Analytics_2 = () => {
   const AnalyticsTable_ROWS = [
@@ -50,12 +52,8 @@ const Analytics_2 = () => {
               <Analytics2Card />
             </div>
             <div className="pl-10">
-              <img
-                src={graph}
-                alt="graph"
-                className="w-[800px] h-80 4xl:pl-40 4xl:w-[2200px] 4xl:h-[500px]"
-              />
-              <div className=" pt-5 4xl:pl-40">
+              <Analytics2Graph/>
+              <div className="pt-5 4xl:pl-40">
                 <Analytics2Table TABLE_ROWS={AnalyticsTable_ROWS} />
               </div>
               <div className="absolute left-[330px] pt-5 4xl:left-[480px]">
@@ -73,17 +71,17 @@ const Analytics_2 = () => {
         </div>
       </div>
       <div className="xl:hidden">
-        <div className="flex max-sm:flex-col sm:gap-14 lg:gap-44 justify-center items-center">
+        <div className="flex max-sm:flex-col sm:gap-[110px] lg:gap-56 sm:pl-9 justify-center items-center lg:pt-10">
           <div>
             <Analytics2MobileTopCard />
           </div>
-          <div className="pt-10">
-            <img src={MobileGraph} alt="MobileGraph" className="sm:h-[240px] sm:w-80 relative sm:bottom-1 sm:left-10"/>
+          <div className="max-sm:pt-10 sm:pt-10">
+            <Analytics2MobileGraph/>
           </div>
         </div>
         <div className="pt-10 grid sm:grid-cols-2">
           {AnalyticsTable_ROWS.map((item) => (
-            <div key={item.id}>
+            <div key={item.date}>
               <MobileTableCard
                 date={item.date}
                 type={item.type}
