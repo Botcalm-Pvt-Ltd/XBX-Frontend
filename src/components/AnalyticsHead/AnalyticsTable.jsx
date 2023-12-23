@@ -5,8 +5,14 @@ import tablelist2 from "../../assets/Analytics/tablelist2.png";
 import tablelist3 from "../../assets/Analytics/tablelist3.png";
 import tablelist4 from "../../assets/Analytics/tablelist4.png";
 import tablelist5 from "../../assets/Analytics/tablelist5.png";
+import { useNavigate } from "react-router-dom";
 
 const AnalyticsTable = ({ TABLE_ROWS }) => {
+  const navigate = useNavigate();
+
+  const handleNavigate = () => {
+    navigate("/analytics2")
+  }
   return (
     <table className="table-fixed w-full text-left 4xl:ml-40">
       <thead>
@@ -28,7 +34,7 @@ const AnalyticsTable = ({ TABLE_ROWS }) => {
                 <hr className="h-px bg-transparent border-0 py-2" />
               </td>
             </tr>
-            <tr className="text-gray-400 hover:text-white hover:bg-gradient-to-l from-gray-500 text-sm 4xl:text-4xl">
+            <tr className="text-gray-400 hover:text-white hover:bg-gradient-to-l from-gray-500 text-sm 4xl:text-4xl cursor-pointer" onClick={handleNavigate}>
               <td className="">
                 <div className="flex gap-3">
                 <div className="flex justify-center items-center">

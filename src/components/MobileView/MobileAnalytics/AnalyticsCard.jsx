@@ -6,14 +6,20 @@ import tablelist2 from "../../../assets/Analytics/tablelist2.png";
 import tablelist3 from "../../../assets/Analytics/tablelist3.png";
 import tablelist4 from "../../../assets/Analytics/tablelist4.png";
 import tablelist5 from "../../../assets/Analytics/tablelist5.png";
+import { useNavigate } from "react-router-dom";
 
 const AnalyticsCard = () => {
+  const navigate = useNavigate();
+
+  const handleNavigate = () => {
+    navigate("/analytics2")
+  }
   return (
     // <div className="flex justify-center items-center text-xs py-8">
     //   <div className="absolute -z-10">
     //     <img src={AnalyticsMobileCard} alt="bodyCard" className="w-full"/>
     //   </div>
-    <div className="flex py-3">
+    <div className="flex py-3 cursor-pointer" onClick={handleNavigate}>
       <div
         className="bg-white p-[1px] rounded-xl w-full"
         style={{
