@@ -10,6 +10,8 @@ import Referrals from "./pages/Referrals";
 import MobileHeader from "./components/MobileView/MobileHeader";
 import Mobilefooter from "./components/MobileView/Mobilefooter";
 import MobileDashboardBackground from "./components/MobileView/MobileDashboardBackground";
+import Analytics_2 from "./pages/Analytics_2";
+import DashboardBackground2 from "./components/DashboardBackground2";
 
 function App() {
   return (
@@ -28,6 +30,17 @@ function App() {
           <Route element={<Analytics />} path="/analytics" />
           <Route element={<Referrals />} path="/referral" />
         </Route>
+        <Route element={ <>
+              <Header/>
+              <MobileHeader/>
+              <DashboardLayout />
+              <DashboardBackground2 />
+              <MobileDashboardBackground />
+              <Mobilefooter/>
+            </>}>
+          <Route element={<Analytics_2 />} path="/analytics2" />
+        </Route>
+
       </Routes>
     </BrowserRouter>
   );

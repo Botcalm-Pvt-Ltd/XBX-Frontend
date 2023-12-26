@@ -23,21 +23,22 @@ const Leadboard = () => {
       floppies: "295",
       referals: "1000",
       volume: "0.08 ETH",
+
     },
   ];
   return (
-    <div>
-      <div className="max-xl:hidden">
+    <div className="">
+      <div className="max-xl:hidden 4xl:ml-40">
         <LeaderBoardBody />
       </div>
       <div className="xl:hidden">
         <MobileLeadboard />
       </div>
-      <div className="pt-16 px-20 4xl:pt-40 4xl:mr-80">
+      <div className="pt-16 px-20 4xl:pt-40 4xl:mr-80 4xl:ml-40">
         <div className="max-xl:hidden">
           <LeaderBoardTable TABLE_ROWS={LeaderBoardTable_ROWS} />
         </div>
-        <div className="flex justify-center max-xl:hidden">
+        <div className="flex justify-center max-xl:hidden pt-8 4xl:pt-20 pr-10">
           <PaginationNav1Presentation />
         </div>
         <div className="flex justify-center xl:hidden">

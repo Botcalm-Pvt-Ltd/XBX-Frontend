@@ -40,6 +40,7 @@
     background-image: url(./assets/background-image.svg);
     background-size: cover;
     background-position: center;
+    
 }
 
 .tool-box-border {
@@ -75,4 +76,9 @@
     -webkit-backdrop-filter: blur(0px);
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.glass-effect-box-header {
+    border: 1px solid rgba(255, 255, 255, 0.62);
+    background: linear-gradient(91deg, rgba(0, 0, 0, 0.90) 0%, rgba(0, 0, 0, 0.41) 100%);
+    backdrop-filter: blur(11.949999809265137px);
 }

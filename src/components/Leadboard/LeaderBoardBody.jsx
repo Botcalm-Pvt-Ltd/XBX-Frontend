@@ -9,25 +9,25 @@ import LeaderBoardButton from "./LeaderBoardButton";
 
 const LeaderBoardBody = () => {
   return (
-    <div className="pt-5 px-14">
+    <div className="pt-5">
       <div>
         <img
           src={Subtract}
           alt="Subtract"
-          className="absolute w-[72%] 4xl:w-[78%] h-1/2 -z-10"
+          className="absolute w-[72%] 4xl:w-[78%] h-96 4xl:h-[730px] -z-10"
         />
       </div>
       <div>
-        <div className="flex items-center justify-center text-white 4xl:text-3xl relative 4xl:right-40">
+        <div className="flex items-center justify-center text-white 4xl:text-3xl relative right-10 4xl:right-40">
           <h1>
-            <span className="text-gray-700">/ Last updated:</span> 01-09-2023
+            <span className="text-gray-500">/ Last updated:</span> 01-09-2023
             16:51:51
           </h1>
         </div>
         <div className="flex items-center justify-between pt-10 px-20 mr-10 4xl:mr-96 4xl:pt-40">
           <div className="flex items-center justify-center gap-10">
             <div>
-              <img src={circleLogo} alt="circleLogo" className="4xl:w-60"/>
+              <img src={circleLogo} alt="circleLogo" className="w-28 4xl:w-60"/>
             </div>
             <div className="text-white Grotesk text-3xl 4xl:text-6xl">
               <h1>Mystic</h1>
@@ -64,25 +64,25 @@ const LeaderBoardBody = () => {
             <h1 className="text-xs 4xl:text-2xl text-gray-500">Mystic</h1>
           </div>
         </div>
-        <div className="flex justify-between items-center text-white Grotesk px-20 mr-20 4xl:mr-[450px] text-lg pt-20 4xl:pt-20">
+        <div className="flex justify-between items-center text-white Grotesk px-20 4xl:px-24 mr-20 4xl:mr-[450px] text-lg pt-20 4xl:pt-20">
           <div>
-            <h1 className="text-base 4xl:text-2xl text-gray-700">/ REFERRALS</h1>
+            <h1 className="text-base 4xl:text-2xl text-gray-500">/ REFERRALS</h1>
             <h1 className="text-2xl 4xl:text-5xl">1000</h1>
           </div>
           <div className="h-20 w-0.5 bg-gray-800" />
           <div>
-            <h1 className="text-base 4xl:text-2xl text-gray-700">/ VOLUME</h1>
+            <h1 className="text-base 4xl:text-2xl text-gray-500">/ VOLUME</h1>
             <h1 className="text-2xl 4xl:text-5xl">1000 ETH</h1>
           </div>
           <div className="h-20 w-0.5 bg-gray-800" />
 
           <div>
-            <h1 className="text-base 4xl:text-2xl text-gray-700">/ REFERRALS VOLUME</h1>
+            <h1 className="text-base 4xl:text-2xl text-gray-500">/ REFERRALS VOLUME</h1>
             <h1 className="text-2xl 4xl:text-5xl">5000 ETH</h1>
           </div>
           <div className="h-20 w-0.5 bg-gray-800" />
 
-          <div>
+          <div className="4xl:scale-150 4xl:pt-5">
           <LeaderBoardButton/>
           </div>
         </div>

@@ -4,8 +4,10 @@ import menu from '../assets/menu.svg';
 import { FaChevronDown } from "react-icons/fa";
 import BlueRadialGradient from './BlueRadialGradient';
 import XBXBG from './XBXBG';
+import { useNavigate } from 'react-router';
 
 const TopNav = () => {
+    const navigate = useNavigate();
     const [menuShow, setMenuShow] = useState(false);
 
     const menuToggle= ()=> {
@@ -18,7 +20,9 @@ const TopNav = () => {
           section.scrollIntoView({ behavior: 'smooth' });
         }
       };
-
+      const handleDashboardClick = () => {
+        navigate("/leadboard");
+      };
     return (
         <div className='flex items-center justify-between relative px-10 xl:px-20 lg:px-10'>
             <div className='w-1/2 z-10'>
@@ -42,7 +46,7 @@ const TopNav = () => {
                         <FaChevronDown className='text-xs'/>
                     </div>
                 </div>
-                <div className='mr-10'>
+                <div className='mr-10 '  onClick={handleDashboardClick}>
                     <span className='text-gray-500 font-bold md:block hidden'>/ 03</span>
                     <div className='flex items-center text-white'>
                         <h6 className='mr-1'>Dashboard</h6>
@@ -73,7 +77,7 @@ const TopNav = () => {
                         <FaChevronDown className='text-xs'/>
                     </div>
                 </div>
-                <div className='mr-10 4xl:text-lg cursor-pointer'>
+                <div className='mr-10 4xl:text-lg cursor-pointer' onClick={handleDashboardClick}>
                     <span className='text-gray-500 font-bold md:block hidden'>/ 03</span>
                     <div className='flex items-center text-white'>
                         <h6 className='mr-1 hover:mr-2 transition-all transition-300'>Dashboard</h6>

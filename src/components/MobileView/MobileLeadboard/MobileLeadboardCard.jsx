@@ -7,7 +7,7 @@ const MobileLeadboardCard = () => {
       <div className="flex justify-center items-center">
         <div className="w-0 h-[64px] border-[1px] relative bottom-[91px] left-[300px] rotate-[-46deg]"></div>
         <div
-          className="flex flex-col items-start justify-center gap-5 bg-gray-500/30 p-5 px-14 rounded-xl text-white border-2"
+          className="flex flex-col items-start justify-center gap-5 bg-neutral-900/70 p-5 px-14 rounded-xl text-white border-2"
           style={{
             clipPath: "polygon(85% 0, 100% 20%, 100% 100%, 0% 100%, 0% 0%)",
           }}
