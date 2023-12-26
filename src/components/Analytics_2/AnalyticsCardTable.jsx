@@ -7,7 +7,7 @@ const AnalyticsCardTable = ({ TABLE_ROWS }) => {
         <tr className="text-gray-500 4xl:text-4xl">
           <th className="">DATE</th>
           <th className="">MC</th>
-          <th className="">SOCIAL</th>
+          <th className="relative max-2xl:right-10">SOCIAL</th>
         </tr>
         <td colSpan="3">
           <hr className="h-px bg-transparent border-1 py-2 border-gray-600/50" />
@@ -21,7 +21,7 @@ const AnalyticsCardTable = ({ TABLE_ROWS }) => {
               <td className="">
                 {details.mc}
               </td>
-              <td className="">{details.social}</td>
+              <td className="relative max-2xl:right-10 whitespace-nowrap">{details.social}</td>
             </tr>
             <tr>
               <td colSpan="3">

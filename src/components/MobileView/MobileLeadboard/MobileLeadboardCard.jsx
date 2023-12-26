@@ -1,47 +1,44 @@
 import React from "react";
 import piechart from "../../../assets/Mobile/MobileLeadboard/piechart.png";
+import Subtract from '../../../assets/Mobile/MobileLeadboard/Subtract.png'
 
 const MobileLeadboardCard = () => {
   return (
     <div className="p-2">
       <div className="flex justify-center items-center">
-        <div className="w-0 h-[64px] border-[1px] relative bottom-[91px] left-[300px] rotate-[-46deg]"></div>
-        <div
-          className="flex flex-col items-start justify-center gap-5 bg-neutral-900/70 p-5 px-14 rounded-xl text-white border-2"
-          style={{
-            clipPath: "polygon(85% 0, 100% 20%, 100% 100%, 0% 100%, 0% 0%)",
-          }}
-        >
-          <div className="flex gap-16">
-            <div className="flex justify-center items-center gap-5">
+        <div className="flex justify-center items-center"><img src={Subtract} alt="Subtract" className="absolute -z-10"/>
+        <div className="p-5 flex flex-col gap-3 text-white">
+          <div className="flex gap-16 relative right-8">
+            <div className="flex justify-start items-center gap-5">
               <img src={piechart} alt="piechart" className="w-8 h-8" />
               <div>
-                <h1>RANK</h1>
+                <h1 className="text-gray-500 text-sm">RANK</h1>
                 <h1>00</h1>
               </div>
             </div>
             <div>
-              <h1>Wallet</h1>
+              <h1 className="text-gray-500 text-sm">Wallet</h1>
               <h1>You</h1>
             </div>
           </div>
-          <div className="flex gap-16">
+          <div className="flex gap-16 relative right-8">
             <div>
-              <h1>FLOPPIES</h1>
+              <h1 className="text-gray-500 text-sm">FLOPPIES</h1>
               <h1>00.0</h1>
             </div>
-            <div className="relative left-7">
-              <h1>REFERRALS</h1>
+            <div className="relative left-7 ">
+              <h1 className="text-gray-500 text-sm">REFERRALS</h1>
               <h1>1000</h1>
             </div>
           </div>
-          <div>
-            <h1>VOLUME</h1>
+          <div className="relative right-8">
+            <h1 className="text-gray-500 text-sm">VOLUME</h1>
             <h1>53.37 ETH</h1>
           </div>
         </div>
+        </div>
+        </div>
       </div>
-    </div>
   );
 };
 
