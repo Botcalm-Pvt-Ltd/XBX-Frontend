@@ -8,7 +8,7 @@ import AnalyticsBarChart4xl from "./AnalyticsBarChart4xl";
 
 const Analytics2Graph = () => {
   return (
-    <div className="flex justify-center text-white">
+    <div className="flex text-white 4xl:ml-40">
       <div className="absolute -z-10">
         <img
           src={grapgCard}

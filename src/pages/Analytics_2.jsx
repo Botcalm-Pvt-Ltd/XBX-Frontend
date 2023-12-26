@@ -57,7 +57,7 @@ const Analytics_2 = () => {
                 <Analytics2Table TABLE_ROWS={AnalyticsTable_ROWS} />
               </div>
               <div className="absolute left-[330px] pt-5 4xl:left-[480px]">
-                <div className="flex gap-[130px] 4xl:pt-20">
+                <div className="flex max-2xl:gap-[60px] gap-[130px] 4xl:pt-20">
                   <div>
                     <Analytics2Holders />
                   </div>
@@ -96,7 +96,7 @@ const Analytics_2 = () => {
         <div className="flex justify-center xl:hidden">
           <MobilePaginationNav1Presentation />
         </div>
-        <div className="flex max-sm:flex-col justify-center items-center gap-10 lg:gap-44">
+        <div className="flex max-sm:flex-col justify-center items-center max-2xl:gap-5 gap-10 lg:gap-44">
           <div>
             <MobileAnalytics2Holders />
           </div>

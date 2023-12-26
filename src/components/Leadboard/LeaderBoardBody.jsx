@@ -14,7 +14,7 @@ const LeaderBoardBody = () => {
         <img
           src={Subtract}
           alt="Subtract"
-          className="absolute w-[72%] 4xl:w-[78%] h-96 4xl:h-[730px] -z-10"
+          className="absolute w-[72%] 4xl:w-[78%] h-96 xl:h-[350px] 4xl:h-[730px] -z-10"
         />
       </div>
       <div>
