@@ -51,8 +51,8 @@ const AnalyticsTable = ({ TABLE_ROWS }) => {
                   </div>
                 </div>
               </td>
-              <td className="4xl:text-4xl">
-                <div>
+              <td className="text-xs 4xl:text-2xl">
+                <div className="flex flex-col gap-1 4xl:gap-3">
                   <h1 className="text-orange-700">MAYBE RUG</h1>
                   <h1>WALLETS: {details.launchstats1}</h1>
                   <h1>SELECTIVE : {details.launchstats2}</h1>
@@ -67,14 +67,19 @@ const AnalyticsTable = ({ TABLE_ROWS }) => {
               <td className="4xl:text-4xl">{details.liquidity}</td>
               <td className="4xl:text-4xl">
                 <div>
-                  <img src={tablelist1} alt="tablelist1" className="4xl:w-10 4xl:h-10" />
-                  <div className="flex py-2 gap-1">
-                    <img src={tablelist2} alt="tablelist2" className="4xl:w-10 4xl:h-10"/>
-                    <img src={tablelist3} alt="tablelist3" className="4xl:w-10 4xl:h-10"/>
-                    <img src={tablelist4} alt="tablelist4" className="4xl:w-10 4xl:h-10"/>
-                    <img src={tablelist5} alt="tablelist5" className="4xl:w-10 4xl:h-10"/>
+                  <img src={tablelist1} alt="tablelist1" className="w-4 4xl:w-10 4xl:h-10" />
+                  <div className="flex justify-start items-center py-2 gap-1">
+                    <img src={tablelist2} alt="tablelist2" className="w-4 h-4 4xl:w-10 4xl:h-10"/>
+                    <img src={tablelist3} alt="tablelist3" className="w-4 h-4 4xl:w-10 4xl:h-10"/>
+                    <img src={tablelist4} alt="tablelist4" className="w-4 h-4 4xl:w-10 4xl:h-10"/>
+                    <img src={tablelist5} alt="tablelist5" className="w-4 h-4 4xl:w-10 4xl:h-10"/>
                   </div>
                 </div>
+              </td>
+            </tr>
+            <tr>
+              <td colSpan="8">
+                <hr className="h-px bg-transparent border-1 mt-5 border-gray-600/50" />
               </td>
             </tr>
           </React.Fragment>

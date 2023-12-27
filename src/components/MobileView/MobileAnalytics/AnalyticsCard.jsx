@@ -15,25 +15,15 @@ const AnalyticsCard = () => {
     navigate("/analytics2")
   }
   return (
-    // <div className="flex justify-center items-center text-xs py-8">
-    //   <div className="absolute -z-10">
-    //     <img src={AnalyticsMobileCard} alt="bodyCard" className="w-full"/>
-    //   </div>
     <div className="flex py-3 cursor-pointer" onClick={handleNavigate}>
-      <div
-        className="bg-white p-[1px] rounded-xl w-full"
-        style={{
-          clipPath: "polygon(85% 0, 100% 10%, 100% 100%, 0% 100%, 0% 0%)",
-        }}
-      >
+      <div className="absolute -z-10">
+        <img src={AnalyticsMobileCard} alt="bodyCard" className="w-96 h-[400px] pr-7 md:pr-[40px]"/>
+      </div>
         <div
-          className="w-full flex flex-col items-center p-5 justify-start gap-5 glass-effect-box3 rounded-xl text-white"
-          style={{
-            clipPath: "polygon(85% 0, 100% 10%, 100% 100%, 0% 100%, 0% 0%)",
-          }}
+          className="w-80 flex flex-col items-center p-5 justify-start gap-5 rounded-xl text-white"
         >
           <div className="flex flex-col gap-5 Grotesk text-white">
-            <div className="flex justify-between items-center gap-16">
+            <div className="flex justify-between items-center gap-28">
               <div className="flex flex-col gap-5">
                 <div className="flex gap-3">
                   <img src={tablecol1} alt="Arrow" className="w-6 h-7" />
@@ -93,7 +83,6 @@ const AnalyticsCard = () => {
             </div>
           </div>
         </div>
-      </div>
     </div>
   );
 };

@@ -24,7 +24,7 @@ const Sidebar = () => {
   return (
     <div className="max-xl:hidden">
 
-    <div className="w-80 max-2xl:w-60 flex flex-col gap-5 justify-center items-center pt-20 4xl:pt-40 max-xl:text-sm max-xl:gap-20 max-xl:pt-40 4xl:gap-20 4xl:text-2xl ">
+    <div className="w-80 max-2xl:w-60 4xl:w-96 flex flex-col gap-5 justify-center items-center pt-20 4xl:pt-40 max-xl:text-sm max-xl:gap-20 max-xl:pt-40 4xl:gap-20 4xl:text-2xl ">
       <h1 className="text-gray-600 Grotesk">/ Main Menu</h1>
       <div className="text-gray-600 flex flex-col max-xl:gap-10 gap-2 4xl:gap-10">
         <div className="flex items-center hover:text-white cursor-pointer">

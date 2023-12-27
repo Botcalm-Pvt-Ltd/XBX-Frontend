@@ -12,6 +12,11 @@
   background-position: center;
 }
 
+body {
+  overflow-x: hidden;
+}
+
+
 .Grotesk {
   font-family: 'Space Grotesk', sans-serif;
 }
@@ -94,11 +99,8 @@
   clip-path: polygon(95% 0, 100% 33%, 100% 100%, 0 100%, 0 0);
 }
 .glass-effect-box3 {
-  background: rgba(255, 255, 255, 0.25);
-  backdrop-filter: blur(0px);
   background-size: cover;
   background-image: url(./assets/Mobile/MobileAnalytics/Subtract.png);
-  clip-path: polygon(95% 0, 100% 33%, 100% 100%, 0 100%, 0 0);
 }
 .analyticsColorGrid {
   grid-template-columns: repeat(18, minmax(0, 1fr));

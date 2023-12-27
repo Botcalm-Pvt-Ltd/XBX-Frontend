@@ -24,7 +24,7 @@ const ReferralsCardcodes = () => {
             {[...Array(9).keys()].map((index) => (
               <div
                 key={index}
-                className={`flex items-center justify-start gap-1 4xl:gap-5 ${
+                className={`flex items-center justify-start gap-1 4xl:gap-5 4xl:py-2 ${
                   index === 0 || index === 1 || index === 3 ? "text-white" : "text-gray-500"
                 }`}
               >

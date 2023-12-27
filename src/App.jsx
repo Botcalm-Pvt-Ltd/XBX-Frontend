@@ -27,8 +27,8 @@ function App() {
               <Mobilefooter/>
             </>}>
           <Route element={<Leadboard />} path="/leadboard" />
-          <Route element={<Analytics />} path="/analytics" />
           <Route element={<Referrals />} path="/referral" />
+          <Route element={<Analytics />} path="/analytics" />
         </Route>
         <Route element={ <>
               <Header/>
