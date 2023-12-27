@@ -29,7 +29,7 @@ const MobileTableCard = ({date, type, usd, zuzu, weth, price}) => {
                 <h1 className="text-gray-500">USD</h1>
                 <h1 className="text-emerald-500">{usd}</h1>
               </div>
-              <div>
+              <div className="relative left-6">
                 <h1 className="text-gray-500">ZuZU</h1>
                 <h1 className="text-emerald-500">{zuzu}</h1>
               </div>
@@ -39,7 +39,7 @@ const MobileTableCard = ({date, type, usd, zuzu, weth, price}) => {
                 <h1 className="text-gray-500">WETH</h1>
                 <h1 className="text-orange-700">{weth}</h1>
               </div>
-              <div>
+              <div className="relative left-4">
                 <h1 className="text-gray-500">Price</h1>
                 <h1 className="text-orange-700">{price}</h1>
               </div>

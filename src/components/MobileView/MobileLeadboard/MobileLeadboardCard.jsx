@@ -28,12 +28,12 @@ const MobileLeadboardCard = () => {
             </div>
             <div className="relative left-7 ">
               <h1 className="text-gray-500 text-sm">REFERRALS</h1>
-              <h1>1000</h1>
+              <h1>00.0</h1>
             </div>
           </div>
           <div className="relative right-8">
             <h1 className="text-gray-500 text-sm">VOLUME</h1>
-            <h1>53.37 ETH</h1>
+            <h1>00.0 ETH</h1>
           </div>
         </div>
         </div>
