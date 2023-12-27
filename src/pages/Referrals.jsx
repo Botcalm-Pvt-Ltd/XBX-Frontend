@@ -19,23 +19,11 @@ const Referrals = () => {
     {
       id: "2",
       wallet: "0xCR9...8732",
-      volume: "22.4 ETH",
+      volume: "0.00 ETH",
       code: "V8-COSTE",
     },
     {
       id: "3",
-      wallet: "0xCR9...8732",
-      volume: "50.0 ETH",
-      code: "V8-COSTE",
-    },
-    {
-      id: "4",
-      wallet: "0xCR9...8732",
-      volume: "7.48 ETH",
-      code: "V8-COSTE",
-    },
-    {
-      id: "5",
       wallet: "0xCR9...8732",
       volume: "0.00 ETH",
       code: "V8-COSTE",
@@ -56,7 +44,7 @@ const Referrals = () => {
         </div>
       </div>
       <div className="xl:hidden">
-        <div className="flex max-sm:flex-col sm:gap-32 justify-center items-center">
+        <div className="flex max-sm:flex-col sm:gap-32 lg:gap-60 justify-center items-center">
           <div>
             <MobileReferralsCard />
           </div>

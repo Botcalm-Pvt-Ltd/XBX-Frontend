@@ -9,21 +9,21 @@ const ReferralsCard = () => {
         <div className="flex justify-between">
           <div>
             <h1 className="text-gray-500 text-base 4xl:text-xl">/ REFERRALS</h1>
-            <h1>15</h1>
+            <h1>0.00</h1>
           </div>
           <div>
             <h1 className="text-gray-500 text-base 4xl:text-xl">/ VOLUME</h1>
-            <h1>23.04 ETH</h1>
+            <h1>0.00 ETH</h1>
           </div>
         </div>
         <div className="flex justify-between">
           <div>
             <h1 className="text-gray-500 text-base 4xl:text-xl">/ REFERRALS VOLUME</h1>
-            <h1>54.41 ETH</h1>
+            <h1>0.00 ETH</h1>
           </div>
-          <div>
+          <div className="relative right-6">
             <h1 className="text-gray-500 text-base 4xl:text-xl">/ Rank</h1>
-            <h1>24</h1>
+            <h1>0.00</h1>
           </div>
         </div>
       </div>

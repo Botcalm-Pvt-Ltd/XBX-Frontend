@@ -14,15 +14,15 @@ const Leadboard = () => {
       wallet: "You",
       floppies: "00.0",
       referals: "0",
-      volume: "53.37 ETH",
+      volume: "00.0 ETH",
     },
     {
       Arrow: piecharttable,
       Rank: "01",
       wallet: "0X1B2D...6581",
-      floppies: "295",
-      referals: "1000",
-      volume: "0.08 ETH",
+      floppies: "00.0",
+      referals: "0",
+      volume: "00.0 ETH",
 
     },
   ];

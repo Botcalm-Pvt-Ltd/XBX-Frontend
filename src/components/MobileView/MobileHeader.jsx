@@ -18,7 +18,7 @@ import arrow from "../../assets/Dashboard/arrow.png";
 const MobileHeader = () => {
   const navigate = useNavigate();
   const [isSectionVisible, setSectionVisibility] = useState(false);
-  const [selectedItem, setSelectedItem] = useState(null);
+  const [selectedItem, setSelectedItem] = useState("Leadboard");
 
   const handleHeaderClick = () => {
     setSectionVisibility(!isSectionVisible);

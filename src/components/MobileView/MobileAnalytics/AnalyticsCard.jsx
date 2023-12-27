@@ -48,22 +48,22 @@ const AnalyticsCard = () => {
                 </div>
                 <div>
                   <h1 className="text-gray-500">CURRENT MC ($)</h1>
-                  <h1>5.79T</h1>
+                  <h1>0.00T</h1>
                 </div>
               </div>
 
               <div className="flex flex-col gap-5">
                 <div>
                   <h1 className="text-gray-500">XS (ATH)</h1>
-                  <h1>1.5X ($38T)</h1>
+                  <h1>0.00X ($0.00T)</h1>
                 </div>
                 <div>
                   <h1 className="text-gray-500">LIQ. VARIATION</h1>
-                  <h1>+35.73%</h1>
+                  <h1>+0.00%</h1>
                 </div>
                 <div>
                   <h1 className="text-gray-500">CURRENT MC ($)</h1>
-                  <h1>5.6.39K</h1>
+                  <h1>0.00K</h1>
                 </div>
               </div>
             </div>
@@ -73,11 +73,11 @@ const AnalyticsCard = () => {
                 <div className="text-xs">
                   <h1 className="text-orange-700">MAYBE RUG</h1>
                   <h1>WALLETS: </h1>
-                  <h1>SELECTIVE : 0 / 50</h1>
+                  <h1>SELECTIVE : 0 / 0.00</h1>
                   <div className="flex gap-2">
-                    <h1>SNIPERS : 0 / 50</h1>
+                    <h1>SNIPERS : 0 / 0.00</h1>
                     <div className="h-5 w-0.5 bg-gray-500/50" />
-                    <h1>FRESH : 0 / 50</h1>
+                    <h1>FRESH : 0 / 0.00</h1>
                   </div>
                 </div>
               </div>
