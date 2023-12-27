@@ -36,7 +36,7 @@ const LandingPage = () => {
 
   return (
     <main className='bg-noise-image relative '>
-      <div className='overflow-x-hidden'>
+      <div className='overflow-hidden'>
         <TopNav />
         <MainBanner />
         <XBXTools />
