@@ -24,10 +24,10 @@ const XBXTools = () => {
                 <div className='w-1/4 relative xl:-translate-y-32 xl:hover:-translate-y-36 transition-all cursor-pointer' >
                     <img src={borderBOx} alt="tool-border" className='w-full h-full object-contain glass-effect-box-landing tool-clip'/>
                     <div className='absolute top-0 left-0 p-10'>
-                        <div className='w-16 h-16 4xl:w-20 4xl:h-20'>
+                        <div className='w-16 h-16 4xl:w-20 4xl:h-20 4xl:mb-6'>
                             <img src={upChart} alt="up-arrow" className='w-full h-full object-contain' />
                         </div>
-                        <h4 className='text-white font-bold text-4xl text-left my-5 4xl:text-6xl'>ANALYTICS<br />TOOLS</h4>
+                        <h4 className='text-white font-bold text-4xl text-left my-5 4xl:text-6xl 4xl:mb-8'>ANALYTICS<br />TOOLS</h4>
                         <p className='text-gray-500 text-lg text-left 4xl:text-xl'>ON-CHAIN<br />ALPHA</p>
                     </div>
                     <div className='absolute w-48 -bottom-6 right-10'>
@@ -37,10 +37,10 @@ const XBXTools = () => {
                 <div className='w-1/4 relative xl:-translate-y-20 xl:hover:-translate-y-24 transition-all cursor-pointer'>
                     <img src={borderBOx} alt="tool-border" className='w-full h-full object-contain glass-effect-box-landing tool-clip' />
                     <div className='absolute top-0 left-0 p-10'>
-                        <div className='w-16 h-16 4xl:w-20 4xl:h-20'>
+                        <div className='w-16 h-16 4xl:w-20 4xl:h-20 4xl:mb-6'>
                             <img src={moneyIcon} alt="up-arrow" className='w-full h-full object-contain' />
                         </div>
-                        <h4 className='text-white font-bold text-4xl text-left my-5 4xl:text-6xl'>ANALYTICS<br />TOOLS</h4>
+                        <h4 className='text-white font-bold text-4xl text-left my-5 4xl:text-6xl 4xl:mb-8'>ANALYTICS<br />TOOLS</h4>
                         <p className='text-gray-500 text-lg text-left 4xl:text-xl'>ON-CHAIN<br />ALPHA</p>
                     </div>
                     <div className='absolute w-48 -bottom-6 right-10'>
@@ -50,10 +50,10 @@ const XBXTools = () => {
                 <div className='w-1/4 relative xl:-translate-y-10 xl:hover:-translate-y-12 transition-all cursor-pointer'>
                     <img src={borderBOx} alt="tool-border" className='w-full h-full object-contain glass-effect-box-landing tool-clip' />
                     <div className='absolute top-0 left-0 p-10'>
-                        <div className='w-16 h-16 4xl:w-20 4xl:h-20'>
+                        <div className='w-16 h-16 4xl:w-20 4xl:h-20 4xl:mb-6'>
                             <img src={upChart} alt="up-arrow" className='w-full h-full object-contain' />
                         </div>
-                        <h4 className='text-white font-bold text-4xl text-left my-5 4xl:text-6xl'>ANALYTICS<br />TOOLS</h4>
+                        <h4 className='text-white font-bold text-4xl text-left my-5 4xl:text-6xl 4xl:mb-8'>ANALYTICS<br />TOOLS</h4>
                         <p className='text-gray-500 text-lg text-left 4xl:text-xl'>ON-CHAIN<br />ALPHA</p>
                     </div>
                     <div className='absolute w-48 -bottom-6 right-10'>
@@ -63,10 +63,10 @@ const XBXTools = () => {
                 <div className='w-1/4 relative xl:hover:-translate-y-2 transition-all cursor-pointer'>
                     <img src={borderBOx} alt="tool-border" className='w-full h-full object-contain glass-effect-box-landing tool-clip' />
                     <div className='absolute top-0 left-0 p-10'>
-                        <div className='w-16 h-16 4xl:w-20 4xl:h-20'>
+                        <div className='w-16 h-16 4xl:w-20 4xl:h-20 4xl:mb-6'>
                             <img src={moneyIcon} alt="up-arrow" className='w-full h-full object-contain' />
                         </div>
-                        <h4 className='text-white font-bold text-4xl text-left my-5 4xl:text-6xl'>ANALYTICS<br />TOOLS</h4>
+                        <h4 className='text-white font-bold text-4xl text-left my-5 4xl:text-6xl 4xl:mb-8'>ANALYTICS<br />TOOLS</h4>
                         <p className='text-gray-500 text-lg text-left 4xl:text-xl'>ON-CHAIN<br />ALPHA</p>
                     </div>
                     <div className='absolute w-48 -bottom-6 right-10'>
