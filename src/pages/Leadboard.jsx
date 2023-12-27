@@ -28,13 +28,13 @@ const Leadboard = () => {
   ];
   return (
     <div className="">
-      <div className="max-xl:hidden 4xl:ml-40">
+      <div className="max-xl:hidden 4xl:ml-28">
         <LeaderBoardBody />
       </div>
       <div className="xl:hidden">
         <MobileLeadboard />
       </div>
-      <div className="pt-16 px-20 4xl:pt-40 4xl:mr-80 4xl:ml-40">
+      <div className="pt-16 px-20 4xl:pt-40 4xl:mr-80 4xl:ml-28">
         <div className="max-xl:hidden">
           <LeaderBoardTable TABLE_ROWS={LeaderBoardTable_ROWS} />
         </div>

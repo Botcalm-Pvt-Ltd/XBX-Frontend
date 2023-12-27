@@ -23,9 +23,9 @@ const Analytics2Head = () => {
     document.body.removeChild(tempTextArea);
   };
 
-  const handleBack = () =>{
-navigate("/analytics")
-  }
+  const handleBack = () => {
+    navigate("/analytics");
+  };
   return (
     <div className="flex justify-between items-center">
       <div>
@@ -64,27 +64,27 @@ navigate("/analytics")
         </div>
       </div>
       <div>
-        <img src={tablelist1} alt="tablelist1" className="4xl:w-10 4xl:h-10" />
+        <img src={tablelist1} alt="tablelist1" className="w-4 4xl:w-10 4xl:h-10"  />
         <div className="flex py-2 gap-1">
           <img
             src={tablelist2}
             alt="tablelist2"
-            className="4xl:w-10 4xl:h-10"
+            className="w-4 h-4 4xl:w-10 4xl:h-10"
           />
           <img
             src={tablelist3}
             alt="tablelist3"
-            className="4xl:w-10 4xl:h-10"
+            className="w-4 h-4 4xl:w-10 4xl:h-10"
           />
           <img
             src={tablelist4}
             alt="tablelist4"
-            className="4xl:w-10 4xl:h-10"
+            className="w-4 h-4 4xl:w-10 4xl:h-10"
           />
           <img
             src={tablelist5}
             alt="tablelist5"
-            className="4xl:w-10 4xl:h-10"
+            className="w-4 h-4 4xl:w-10 4xl:h-10"
           />
         </div>
       </div>

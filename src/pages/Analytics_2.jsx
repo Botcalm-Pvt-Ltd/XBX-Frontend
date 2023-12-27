@@ -51,13 +51,13 @@ const Analytics_2 = () => {
             <div className="">
               <Analytics2Card />
             </div>
-            <div className="pl-10">
+            <div className="pl-10 4xl:pl-24">
               <Analytics2Graph/>
               <div className="pt-5 4xl:pl-40">
                 <Analytics2Table TABLE_ROWS={AnalyticsTable_ROWS} />
               </div>
               <div className="absolute left-[330px] pt-5 4xl:left-[480px]">
-                <div className="flex max-2xl:gap-[60px] gap-[130px] 4xl:pt-20">
+                <div className="flex max-2xl:gap-[60px] gap-[130px] 4xl:gap-[650px] 4xl:pt-20">
                   <div>
                     <Analytics2Holders />
                   </div>

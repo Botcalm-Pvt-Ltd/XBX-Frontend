@@ -32,13 +32,13 @@ const Referrals = () => {
   return (
     <div>
       <div className="px-10 mr-20 pt-10 max-xl:hidden">
-        <div className="flex justify-between 4xl:justify-start gap-0 4xl:gap-[920px] 4xl:ml-40">
+        <div className="flex justify-between 4xl:justify-start gap-0 4xl:gap-[1120px] 4xl:ml-28">
           <ReferralsCard />
           <ReferralsCardcodes />
         </div>
-        <div className="relative top-16 4xl:top-40 4xl:ml-40">
+        <div className="relative top-16 4xl:top-40 4xl:ml-28">
           <h1 className="text-white text-2xl">YOUR REFERRALS STATS</h1>
-          <div className="pt-5">
+          <div className="pt-5 4xl:mr-60">
             <ReferralTable TABLE_ROWS={LeaderBoardTable_ROWS} />
           </div>
         </div>

@@ -11,7 +11,7 @@ const ReferralTable = ({ TABLE_ROWS }) => {
           <th className="4xl:text-4xl relative left-10">CODE</th>
         </tr>
         <td colSpan="4">
-                <hr className="h-px bg-transparent border-1 py-2 border-gray-600/50" />
+                <hr className="h-px bg-transparent border-1 mt-5 py-2 border-gray-600/50" />
               </td>
       </thead>
       <tbody>
@@ -25,7 +25,7 @@ const ReferralTable = ({ TABLE_ROWS }) => {
             </tr>
             <tr>
               <td colSpan="4">
-                <hr className="h-px bg-transparent border-1 py-2 border-gray-600/50" />
+                <hr className="h-px bg-transparent border-1 mt-5 py-2 border-gray-600/50" />
               </td>
             </tr>
           </React.Fragment>

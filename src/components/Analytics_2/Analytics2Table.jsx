@@ -15,7 +15,7 @@ const Analytics2Table = ({ TABLE_ROWS }) => {
           <th className="w-28 relative left-5 pb-5 4xl:w-80">TXN</th>
         </tr>
         <td colSpan="8">
-          <hr className="h-px bg-transparent border-1 py-2 border-gray-600/50" />
+          <hr className="h-px w-[750px] bg-transparent border-1 py-2 border-gray-600/50" />
         </td>
       </thead>
       <tbody>
@@ -38,7 +38,7 @@ const Analytics2Table = ({ TABLE_ROWS }) => {
             </tr>
             <tr>
               <td colSpan="8">
-                <hr className="h-px bg-transparent border-1 py-2 border-gray-600/50" />
+                <hr className="h-px w-[750px] bg-transparent border-1 mt-3 border-gray-600/50" />
               </td>
             </tr>
           </React.Fragment>
