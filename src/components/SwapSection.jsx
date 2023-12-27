@@ -27,7 +27,7 @@ const SwapSection = () => {
                     <img src={swapdesk01} className='w-full h-full object-contain lg:block hidden glass-effect-box-landing' style={{ clipPath: 'polygon(0% 0%, 83% 0%, 100% 19%, 100% 66%, 65% 100%, 0% 100%)' }} />
                     <img src={swapdesk01Mobile} className='w-full h-full object-contain block lg:hidden glass-effect-box-landing mb-5' style={{ clipPath: 'polygon(0% 0%, 70% 0%, 100% 19%, 100% 100%, 65% 100%, 0% 100%)' }} />
                     <div className='absolute md:top-3 top-10 left-0 w-full xl:px-20 px-10 xl:py-0 lg:py-10 md:py-28 4xl:py-32'>
-                        <div className='w-full md:w-60 text-left md:ml-auto xl:mt-10 md:mr-16'>
+                        <div className='w-full md:w-60 4xl:w-full text-left md:ml-auto xl:mt-10 md:mr-16'>
                             <h1 className='md:text-4xl 4xl:text-6xl 4xl:mb-5 text-xl font-bold md:text-right'>XBX BOT</h1>
                             <p className='text-gray-300 md:text-right text-xs md:text 4xl:text-lg-sm'>FEES : 0.8%</p>
                         </div>
