@@ -4,7 +4,7 @@ const ReferralTable = ({ TABLE_ROWS }) => {
   return (
     <table className="table-fixed w-full text-left">
       <thead>
-        <tr className="text-white">
+        <tr className="text-sm text-gray-600">
           <th className="4xl:text-4xl"></th>
           <th className="4xl:text-4xl relative right-48 4xl:right-96">WALLET</th>
           <th className="4xl:text-4xl relative right-20">VOLUME</th>
