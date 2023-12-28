@@ -37,7 +37,7 @@ const Referrals = () => {
           <ReferralsCardcodes />
         </div>
         <div className="relative top-16 4xl:top-40 4xl:ml-28">
-          <h1 className="text-white text-2xl">YOUR REFERRALS STATS</h1>
+          <h1 className="text-white text-2xl 4xl:text-5xl">YOUR REFERRALS STATS</h1>
           <div className="pt-5 4xl:mr-60">
             <ReferralTable TABLE_ROWS={LeaderBoardTable_ROWS} />
           </div>

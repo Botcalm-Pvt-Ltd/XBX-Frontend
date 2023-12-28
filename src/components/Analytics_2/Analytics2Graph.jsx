@@ -17,7 +17,7 @@ const Analytics2Graph = () => {
         />
       </div>
       <div>
-        <div className="flex justify-between w-full pt-5 px-5 4xl:text-4xl">
+        <div className="flex justify-between w-full pt-5 px-5 4xl:text-4xl 4xl:pl-40">
           <div className="flex flex-col gap-2">
             <h1>Dec29,2021</h1>
             <h1 className="text-2xl 4xl:text-6xl">$286.12 M</h1>

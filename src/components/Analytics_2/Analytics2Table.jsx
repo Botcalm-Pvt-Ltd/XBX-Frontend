@@ -38,7 +38,7 @@ const Analytics2Table = ({ TABLE_ROWS }) => {
             </tr>
             <tr>
               <td colSpan="8">
-                <hr className="h-px w-[750px] bg-transparent border-1 mt-3 border-gray-600/50" />
+                <hr className="h-px w-[750px] 4xl:w-[2100px] bg-transparent border-1 mt-3 border-gray-600/50" />
               </td>
             </tr>
           </React.Fragment>

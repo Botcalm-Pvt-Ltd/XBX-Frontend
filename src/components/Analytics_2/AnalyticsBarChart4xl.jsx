@@ -116,7 +116,7 @@ const AnalyticsBarChart4xl = () => {
   });
 
   return (
-    <div id="chart">
+    <div id="chart" className="pl-40">
       <ReactApexChart
         options={chartData.options}
         series={chartData.series}

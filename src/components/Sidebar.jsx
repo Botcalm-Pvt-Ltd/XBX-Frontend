@@ -9,6 +9,11 @@ import SocialButton from "./SocialButton";
 import { FaXTwitter, FaGithub } from "react-icons/fa6";
 import { TbBrandTelegram } from "react-icons/tb";
 import { useNavigate } from "react-router-dom";
+import { PiMedalLight } from "react-icons/pi";
+import { AiOutlineUserSwitch } from "react-icons/ai";
+import { BsBarChart } from "react-icons/bs";
+import { LuWallet } from "react-icons/lu";
+import { RiExchangeDollarFill } from "react-icons/ri";
 
 const Sidebar = () => {
   const navigate = useNavigate();
@@ -30,33 +35,37 @@ const Sidebar = () => {
         <div className="flex items-center hover:text-white cursor-pointer">
           <div className={`whiteBar relative left-3 ${selectedItem === "Leadboard" ? "bg-white" : "bg-transparent"}`} />
           <div className={`flex items-center Grotesk gap-3  p-3 px-10 max-xl:px-5 ${selectedItem === "Leadboard" ? "headerBg text-white" : ""}`} onClick={() => handleItemClick("Leadboard")}>
-            <img
+            {/* <img
               src={Leadboard}
               alt="Leadboard"
               className="max-lg:w-5 w-5 4xl:w-10"
-            />
+            /> */}
+            <PiMedalLight className={`max-lg:w-5 max-lg:h-5 w-5 h-5 4xl:w-10 4xl:h-10 ${selectedItem ? "text-while" : "text-gray-500"}`}/>
             <h1>Leadboard</h1>
           </div>
         </div>
         <div className="flex items-center hover:text-white cursor-pointer">
           <div className={`whiteBar relative left-3  ${selectedItem === "Referral" ? "bg-white" : "bg-transparent"}`}/>
           <div className={`flex items-center Grotesk gap-3  p-3 px-10 max-xl:px-5 ${selectedItem === "Referral" ? "headerBg text-white" : ""}`} onClick={() => handleItemClick("Referral")}>
-            <img
+            {/* <img
               src={Referrals}
               alt="Referrals"
               className="max-lg:w-5 w-5 4xl:w-10"
             />
+             */}
+             <AiOutlineUserSwitch className={`max-lg:w-5 max-lg:h-5 w-5 h-5 4xl:w-10 4xl:h-10 ${selectedItem ? "text-while" : "text-gray-500"}`}/>
             <h1>Referrals</h1>
           </div>
         </div>
         <div className="flex items-center hover:text-white cursor-pointer">
           <div className={`whiteBar relative left-3 ${selectedItem === "Analytics" ? "bg-white" : "bg-transparent"}`} />
           <div className={`flex items-center Grotesk gap-3  p-3 px-10 max-xl:px-5 ${selectedItem === "Analytics" ? "headerBg text-white" : ""}`} onClick={() => handleItemClick("Analytics")}>
-            <img
+            {/* <img
               src={Analytics}
               alt="Analytics"
               className="max-lg:w-5 w-5 4xl:w-10"
-            />
+            /> */}
+            <BsBarChart className={`max-lg:w-5 max-lg:h-5 w-5 h-5 4xl:w-10 4xl:h-10 ${selectedItem ? "text-while" : "text-gray-500"}`}/>
             <h1>Analytics</h1>
           </div>
         </div>
@@ -66,11 +75,12 @@ const Sidebar = () => {
         <div className="flex items-center hover:text-white cursor-pointer">
           <div className="whiteBar relative left-3 bg-transparent" />
           <div className="flex items-center Grotesk gap-3 p-3 px-10 max-xl:px-5">
-            <img
+            {/* <img
               src={MyTrade}
               alt="MyTrade"
               className="max-lg:w-5 w-5 4xl:w-10"
-            />
+            /> */}
+            <LuWallet className={`max-lg:w-5 max-lg:h-5 w-5 h-5 4xl:w-10 4xl:h-10 ${selectedItem ? "text-while" : "text-gray-500"}`}/>
             <h1 className="whitespace-nowrap">My Trade</h1>
             <img src={lock} alt="lock" className="4xl:w-14" />
           </div>
@@ -78,11 +88,13 @@ const Sidebar = () => {
         <div className="flex items-center hover:text-white cursor-pointer">
           <div className="whiteBar relative left-3 bg-transparent" />
           <div className="flex items-center Grotesk gap-3 p-3 px-10 max-xl:px-5">
-            <img
+            {/* <img
               src={Subscription}
               alt="Subscription"
               className="max-lg:w-5 w-5 4xl:w-10"
-            />
+            /> */}
+            <RiExchangeDollarFill  className={`max-lg:w-5 max-lg:h-5 w-5 h-5 4xl:w-10 4xl:h-10 ${selectedItem ? "text-while" : "text-gray-500"}`}/>
+
             <h1>Subscription</h1>
             <img src={lock} alt="lock" className="4xl:w-14" />
           </div>

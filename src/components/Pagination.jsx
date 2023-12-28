@@ -26,9 +26,8 @@ function Button2({ content, onClick, active, disabled }) {
 function Button3({ content, onClick, active, disabled }) {
   return (
     <button
-      className={`flex flex-col cursor-pointer items-center justify-center w-9 h-9 shadow-[0_4px_10px_rgba(0,0,0,0.03)] text-sm font-normal transition-colors rounded-xl bg-gray-800
-     text-white 4xl:text-2xl
-      gradient-border 4xl:px-24 4xl:py-8 4xl:mx-5 `}
+      className={`flex flex-col cursor-pointer items-center justify-center w-9 h-9 4xl:w-20 4xl:h-20 shadow-[0_4px_10px_rgba(0,0,0,0.03)] text-sm font-normal transition-colors rounded-xl bg-gray-800
+     text-white gradient-border 4xl:mx-10`}
       onClick={onClick}
       disabled={disabled}
     >
@@ -39,7 +38,7 @@ function Button3({ content, onClick, active, disabled }) {
 function Button4({ content, onClick, active, disabled }) {
   return (
     <button
-      className={`flex flex-col cursor-pointer items-center justify-center w-9 h-9 shadow-[0_4px_10px_rgba(0,0,0,0.03)] text-sm font-normal transition-colors rounded-xl px-8 bg-gray-800
+      className={`flex flex-col cursor-pointer items-center justify-center w-9 h-9 4xl:w-20 4xl:h-20 shadow-[0_4px_10px_rgba(0,0,0,0.03)] text-sm font-normal transition-colors rounded-xl px-8 bg-gray-800
       ${
         active
           ? "bg-gray-600 bg-opacity-50 text-white 4xl:text-2xl"
@@ -117,7 +116,7 @@ function PaginationNav1({
       </li>
       <li>
         <Button3
-          content={<IoIosArrowBack/>}
+          content={<IoIosArrowBack className="4xl:w-10 4xl:h-10"/>}
           onClick={handleBackClick}
           disabled={!canPreviousPage}
         />
@@ -127,7 +126,7 @@ function PaginationNav1({
       </div>
       <li>
         <Button3
-          content={<IoIosArrowForward/>}
+          content={<IoIosArrowForward className="4xl:w-10 4xl:h-10"/>}
           onClick={handleForwardClick}
           disabled={!canNextPage}
         />
